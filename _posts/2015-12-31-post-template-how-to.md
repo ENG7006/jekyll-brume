@@ -2,7 +2,6 @@
 layout: post
 title: Post Title
 description: A basic template post.
-categories: jekyll blogging how-to averylongtag
 ---
 This is a basic template post, as well as a markdown how-to.
 
