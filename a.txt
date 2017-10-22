@@ -1,2 +1,2 @@
 ver:4.6.5
-desc:MAP定義の追加
+desc:"MAP定義の追加"
