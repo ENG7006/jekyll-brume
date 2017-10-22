@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<article class="single row gutters">
+  <time class="published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_long_string }}</time>
+  <h2>{{ page.title }}</h2>
+  {% if page.categories.first != null %}<div style="font-size: small; margin-top: -15px; margin-bottom: 20px">categories: {% for category in page.categories %}<a href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}{% if forloop.last %}.{% endif %}{% endfor %}</div>{% endif %}
+
+  {{ content }}
+  <p><a href="http://web.njj12.net/rfm/">一覧</a><br/></p>
+</article>
