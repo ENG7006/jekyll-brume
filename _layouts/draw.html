@@ -8,5 +8,7 @@ layout: default
   {% if page.categories.first != null %}<div style="font-size: small; margin-top: -15px; margin-bottom: 20px">categories: {% for category in page.categories %}<a href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}{% if forloop.last %}.{% endif %}{% endfor %}</div>{% endif %}
 
   {{ content }}
+  <hr>
   <p><a href="http://web.njj12.net/rfm/"><strong>一覧へ戻る</strong></a><br/></p>
+  <hr>
 </article>
