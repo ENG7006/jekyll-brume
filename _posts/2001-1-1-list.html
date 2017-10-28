@@ -6,7 +6,7 @@ permalink: /rfm/
 <p>a</p>
 <section class="archive">
 {% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-{% assign category = "rfm" | sort %}
+{% assign category = rfm | sort %}
 {% for item in (0..site.categories.size) %}{% unless forloop.last %}
 {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
 <div class="bundle row gutters fadeInDown animated">
