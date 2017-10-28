@@ -3,7 +3,7 @@ layout: page
 title: RFM list
 permalink: /rfm/
 ---
-
+<p>s</p>
 <section class="archive">
 
 <div class="bundle row gutters fadeInDown animated">
@@ -11,10 +11,12 @@ permalink: /rfm/
 <div class="posts-by-year col span_9">
 <ul>
   {% for post in site.categories.rfm %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <article class="row gutters">
+  <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
   <div class="post-date col span_4">
     <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %b %Y" }}</time>
   </div>
+</article>
   {% endfor %}
   </ul>
 </div></div>
