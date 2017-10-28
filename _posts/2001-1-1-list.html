@@ -3,9 +3,9 @@ layout: page
 title: RFM list
 permalink: /rfm/
 ---
-<p>a2</p>
+<p>a23</p>
 <section class="archive">
-{% capture categories %}{% for category in site.categories %}{{ category = rfm }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% capture categories %}{% for category in site.categories %}rfm{% endfor %}{% endcapture %}
 {% assign category = categories | split:',' | sort %}
 {% for item in (0..site.categories.size) %}{% unless forloop.last %}
 {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
