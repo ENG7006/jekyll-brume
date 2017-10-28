@@ -1,8 +1,7 @@
 ---
 layout: draw
 title: RFMお知らせ一覧
-permalink: /rfm/
-categories: rfm
+permalink: /rfm/old/
 ---
 
 + [レートシステム](rate) **<font color="Red">New!</font>**<br/>
