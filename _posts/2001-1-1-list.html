@@ -12,7 +12,7 @@ permalink: /rfm/
 <ul>
   {% for post in site.categories.rfm %}
   <article class="row gutters">
-  <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
+  <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8" align="center" valign="top">{{ post.title }}</a>
   <div class="post-date col span_4">
     <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %b %Y" }}</time>
   </div>
