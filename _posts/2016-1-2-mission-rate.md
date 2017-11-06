@@ -5,8 +5,8 @@ permalink: /rfm/rate/mission
 categories: rfm
 ---
 
-ver4.6.7移行順次適用されます.  
-  
+変更後のレートはver4.6.7移行のアップデートにて順次適用されます.  
+  
 
 # 通常ミッション  
   
