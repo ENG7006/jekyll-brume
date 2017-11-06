@@ -5,6 +5,9 @@ permalink: /rfm/rate/mission
 categories: rfm
 ---
 
+ver4.6.7移行順次適用されます.  
+  
+
 # 通常ミッション  
   
 |ミッション名| 獲得レート | 変更後 |
