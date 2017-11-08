@@ -1,7 +1,7 @@
 ---
 layout: draw
 title: 超高難易度ミッションレート
-permalink: /rfm/rate/shlmisshon
+permalink: /rfm/rate/shl
 categories: rfm
 ---
 <p class="alert alert-error">ver4.6.7移行のアップデートにて順次実装されます.</p>
