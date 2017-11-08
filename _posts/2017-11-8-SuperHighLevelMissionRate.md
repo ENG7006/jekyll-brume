@@ -5,7 +5,7 @@ permalink: /rfm/rate/shlmisshon
 categories: rfm
 ---
 
-<code class="highlighter-rouge">変更後のレートはver4.6.7移行のアップデートにて順次適用されます. </code><br>
+<code class="highlighter-rouge" style="background-color:#ff0000">変更後のレートはver4.6.7移行のアップデートにて順次適用されます. </code><br>
  
   
 いままでミッションの報酬としてレートが設定されていなかった一部の<br>
