@@ -4,8 +4,8 @@ title: ミッションレート
 permalink: /rfm/rate/mission
 categories: rfm
 ---
-
-変更後のレートはver4.6.7移行のアップデートにて順次適用されます.  
+<p class="alert alert-error">ver4.6.7移行のアップデートにて順次実装されます.</p>
+ 
   
 
 # 通常ミッション  
