@@ -4,8 +4,7 @@ title: 超高難易度ミッションレート
 permalink: /rfm/rate/shlmisshon
 categories: rfm
 ---
-
-<code class="highlighter-rouge" color="red">変更後のレートはver4.6.7移行のアップデートにて順次適用されます. </code><br>
+<p class="alert alert-error">ver4.6.7移行のアップデートにて順次実装されます.</p>
  
 
 いままでミッションの報酬としてレートが設定されていなかった一部の<br>
