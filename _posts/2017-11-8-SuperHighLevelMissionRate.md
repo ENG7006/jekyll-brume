@@ -1,6 +1,6 @@
 ---
 layout: draw
-title: 超高難易度ミッションレート
+title: 超高難易度ミッションにおけるレート報酬
 permalink: /rfm/rate/shl
 categories: rfm
 ---
