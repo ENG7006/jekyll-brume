@@ -32,3 +32,4 @@ categories: rfm
 | Rebirth of Elua | - |
 | The final battle with Ender Dragon | 250 |
 
+<p class="alert alert-warning">総レートは今後変更される可能性があります。</p>
