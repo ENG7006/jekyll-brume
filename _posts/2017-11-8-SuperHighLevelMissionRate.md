@@ -28,7 +28,7 @@ categories: rfm
   
 |ミッション名| 総レート |
 | :-----------: |:-------------:|
-| Prologue of Elua & Kwaist | 150 |
+| Prologue of Erk & Kwaist | 150 |
 | Rebirth of Elua | - |
 | The final battle with Ender Dragon | 250 |
 
