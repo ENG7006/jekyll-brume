@@ -3,6 +3,6 @@ permalink: /update.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <update>
- <version>4.6.7</version>
- <desc>レートシステムの調整</desc>
+ <version>4.6.8</version>
+ <desc>細かい修正</desc>
 </update>
