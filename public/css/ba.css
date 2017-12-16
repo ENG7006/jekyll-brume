@@ -1,4 +1,4 @@
-.akaB, .aoB, .midoB {
+.sankou-badge, .link-badge {
   padding: 3px 6px;
   margin-right: 8px;
   margin-left: 1px;
@@ -9,14 +9,10 @@
   white-space: nowrap;
 }
 
-.aoB {
+.link-badge {
   background-color: #58ACFA; /*青*/
 }
 
-.midoB {
-  background-color: #85F142; /*緑#04B404*/
-}
-
-.akaB {
-  background-color: #F71A20; /*赤*/
+.sankou-badge {
+  background-color: #04B404; /*緑*/
 }
