@@ -9,10 +9,13 @@
   white-space: nowrap;
 }
 
-.link-badge {
+.aoB {
   background-color: #58ACFA; /*青*/
 }
 
-.sankou-badge {
+.midoB {
   background-color: #04B404; /*緑*/
+}
+.akaB {
+  background-color: #F71A20; /*緑*/
 }
