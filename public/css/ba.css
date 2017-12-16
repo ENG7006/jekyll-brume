@@ -1,4 +1,4 @@
-.green-badge, .blue-badge, .red-badge {
+.green-badge, .blue-badge, .red-badge, .yellow-badge  {
   padding: 3px 6px;
   margin-right: 8px;
   margin-left: 1px;
@@ -15,6 +15,10 @@
 
 .red-badge {
   background-color: #DA0D17; /*赤*/
+}
+
+.yellow-badge {
+  background-color: #EFDC0A; /*黃*/
 }
 
 .green-badge {
