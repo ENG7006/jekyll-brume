@@ -1,4 +1,4 @@
-.sankou-badge, .link-badge {
+.sankou-badge, .link-badge, .warn-badge {
   padding: 3px 6px;
   margin-right: 8px;
   margin-left: 1px;
@@ -11,6 +11,10 @@
 
 .link-badge {
   background-color: #58ACFA; /*青*/
+}
+
+.warn-badge {
+  background-color: #DA0D17; /*赤*/
 }
 
 .sankou-badge {
