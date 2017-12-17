@@ -4,7 +4,7 @@ title: 超高難易度ミッションにおけるレート報酬
 permalink: /rfm/rate/shl
 categories: rfm
 ---
-<p class="alert alert-error">ver4.6.7移行のアップデートにて順次実装されます.</p>
+<p class="alert-success"></p>
 
 ミッション報酬としてレートが設定されていなかった一部の<br>
 <strong>「超高難易度ミッション」</strong>にレート報酬が追加されました。<br>
