@@ -26,10 +26,12 @@ categories: rfm
 <br><br>
 # 超高難易度ミッション  
   
-|ミッション名| 総レート |
-| :-----------: |:-------------:|
-| Prologue of Erk & Kwaist | 150 |
-| Rebirth of Elua | - |
-| The final battle with Ender Dragon | 250 |
+|No|ミッション名| 総レート |
+| :--:| :-----------: |:-------------:|
+|1| Prologue of Erk & Kwaist | 150 |
+|2| Rebirth of Elua | - |
+|3| The final battle with Ender Dragon | 250 |
+|4| Progress of Anim & Setter | 150 |
+|5| Forbidden technology <br>&<br> Notorious Assassin | 150 |
 
 <p class="alert alert-warning">総レートは今後変更される可能性があります。</p>
