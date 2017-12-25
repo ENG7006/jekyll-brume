@@ -4,7 +4,7 @@ title: ミッションレート
 permalink: /rfm/rate/mission
 categories: rfm
 ---
-<p class="alert alert-error">ver4.6.7移行のアップデートにて順次実装されます.</p>
+<p class="alert alert-info">実装が完了しました</p>
  
   
 
