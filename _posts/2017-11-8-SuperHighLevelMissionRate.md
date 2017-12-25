@@ -24,15 +24,4 @@ categories: rfm
 21が全逃走者/生存者に配布されます。
 ```
 <br><br>
-# 超高難易度ミッション  
-  
-|No|ミッション名| 総レート |
-| :--:| :-----------: |:-------------:|
-|1| Prologue of Erk & Kwaist | 150 |
-|2| Rebirth of Elua | - |
-|3| The final battle with Ender Dragon | 250 |
-|4| Progress of Anim & Setter | 150 |
-|5| Forbidden technology <br>&<br> Notorious Assassin | 150 |
-|6| Haughty Nexus | 150 |
-
-<p class="alert alert-warning">総レートは今後変更される可能性があります。</p>
+[ミッションでの獲得レートはこちら](http://web.njj12.net/rfm/rate/mission)<br/>
