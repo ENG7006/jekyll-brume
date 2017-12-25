@@ -33,5 +33,6 @@ categories: rfm
 |3| The final battle with Ender Dragon | 250 |
 |4| Progress of Anim & Setter | 150 |
 |5| Forbidden technology <br>&<br> Notorious Assassin | 150 |
+|6| Haughty Nexus | 150 |
 
 <p class="alert alert-warning">総レートは今後変更される可能性があります。</p>
