@@ -48,7 +48,7 @@ categories: rfm
 -------------------------------------  
 # 超高難易度ミッション  
   
-|No|ミッション名| 総レート |
+|No|ミッション名| 分散レート |
 | :--:| :-----------: |:-------------:|
 |1| Prologue of Erk & Kwaist | 150 |
 |2| Rebirth of Elua | - |
@@ -57,5 +57,5 @@ categories: rfm
 |5| Forbidden technology <br>&<br> Notorious Assassin | 150 |
 |6| Haughty Nexus | 150 |
 
-
+[分散レートについてはこちら](http://web.njj12.net/rfm/rate/shl)<br/>
 
