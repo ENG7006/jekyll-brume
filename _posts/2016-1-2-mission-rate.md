@@ -24,6 +24,7 @@ categories: rfm
 | 文献を届けろ！再び | 10 | 15 |
 | 雪玉を獲得せよ | 1 | 8 |
 | 回復の薬を獲得せよ | 1 | 9 |
+| ガチャチケを獲得せよ |  | 9 |
 | 骨の封印を解除せよ | 10 | 15 |
 | 時間逆転を食い止めろ！ | 10 | 30 |
 | ハンターを退化させろ | 10 | 15 |
@@ -43,4 +44,18 @@ categories: rfm
 | 盗賊ユイット | 10 | 20 |
 | 魔術師クァイスト | 10 | 20 |
 | 9つの魂 | 10 | 10 |
+  
+-------------------------------------
+# 超高難易度ミッション  
+  
+|No|ミッション名| 総レート |
+| :--:| :-----------: |:-------------:|
+|1| Prologue of Erk & Kwaist | 150 |
+|2| Rebirth of Elua | - |
+|3| The final battle with Ender Dragon | 250 |
+|4| Progress of Anim & Setter | 150 |
+|5| Forbidden technology <br>&<br> Notorious Assassin | 150 |
+|6| Haughty Nexus | 150 |
+
+
 
