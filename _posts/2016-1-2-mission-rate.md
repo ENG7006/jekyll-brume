@@ -51,8 +51,8 @@ categories: rfm
 |No|ミッション名| 分散レート |
 | :--:| :-----------: |:-------------:|
 |1| Prologue of Erk & Kwaist | 150 |
-|2| Rebirth of Elua | - |
-|3| The final battle with Ender Dragon | 250 |
+|2| The final battle with Ender Dragon | 250 |
+|3| Rebirth of Elua | - |
 |4| Progress of Anim & Setter | 150 |
 |5| Forbidden technology <br>&<br> Notorious Assassin | 150 |
 |6| Haughty Nexus | 150 |
