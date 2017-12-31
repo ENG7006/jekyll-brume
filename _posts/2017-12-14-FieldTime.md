@@ -1,7 +1,7 @@
 ---
 layout: draw
 title: フィールド・時間帯
-permalink: /rfm/climetime
+permalink: /rfm/fieldtime
 categories: rfm
 ---
 <p class="alert alert-info">今後、新たな仕様が追加される場合があります</p>
