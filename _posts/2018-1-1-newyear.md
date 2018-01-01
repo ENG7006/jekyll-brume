@@ -22,10 +22,13 @@ categories: rfm
 おみくじは1ゲーム1回のみ行うことが可能です。
 
 ------------------------------------------------------------------
-## 2018大抽選会
+## おみくじ大抽選2018
 上記のおみくじコマンド使用時にそれと同時に抽選が行われます。<br>
 <a><img src="http://web.njj12.net/public/images/hazure.png"></a><br>
-大抽選にて当選した場合、当選した証拠のSSをDeveloper[Twitterアカウント](https://twitter.com/nksm4869)まで送ってください。
+大抽選にて当選した場合、当選した証拠のSSをDeveloper[Twitterアカウント](https://twitter.com/nksm4869)まで送ってください。<br>
+
+当選者には限定称号を付与します。<br>
+<a><img src="http://web.njj12.net/public/images/preOmi.png"></a><br>
 
 ------------------------------------------------------------------
 ## レートボーナス
