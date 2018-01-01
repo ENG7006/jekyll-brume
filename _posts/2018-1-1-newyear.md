@@ -9,8 +9,8 @@ categories: rfm
 2018年も **「Project-Run for Money」** をよろしくお願い致します。<br><br>
 
 さて、**Project-Run for Money**では2018年も様々な事を行っていく予定です<br>
-その1つとして「Happy New Year Campaign 2018」を開催いたします。<br>
-期間:2018/1/1 - 2018/1/31  
+その1つとして**「Happy New Year Campaign 2018」**を開催いたします。<br>
+**期間:2018/1/1 - 2018/1/31**<br>
 
 <a><img src="http://web.njj12.net/public/images/20180101.png"></a><br>
 
@@ -38,4 +38,7 @@ categories: rfm
 |対象アクション|ボーナス|
 | :--------: |:---------:|
 |ゲーム開始時に参加|13(1/1現在)|
+
+
+
 
