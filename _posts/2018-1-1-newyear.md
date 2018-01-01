@@ -16,13 +16,15 @@ categories: rfm
 
 
 ## おみくじ
-コマンド　**/omikuji**　を使うことでおみくじを行うことができます。
+コマンド　**/omikuji**　を使うことでおみくじを行うことができます。<br>
 <a><img src="http://web.njj12.net/public/images/omikuji.png"></a><br>
 おみくじは1ゲーム1回のみ行うことが可能です。
 
 ## 2018大抽選会
-上記のおみくじコマンド使用時にそれと同時に抽選が行われます。  
+上記のおみくじコマンド使用時にそれと同時に抽選が行われます。<br>
 <a><img src="http://web.njj12.net/public/images/hazure.png"></a><br>
+大抽選にて当選した場合、当選した証拠のSSをDeveloper[Twitterアカウント](https://twitter.com/nksm4869)まで送ってください。
+
 
 
 ## レートボーナス
