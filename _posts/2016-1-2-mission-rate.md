@@ -4,7 +4,7 @@ title: ミッションレート
 permalink: /rfm/rate/mission
 categories: rfm
 ---
-<p class="alert alert-info">ver4.7.1時点での報酬の値になります</p>
+<p class="alert alert-info">順次更新が行われます</p>
  
   
 
