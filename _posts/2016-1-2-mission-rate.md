@@ -56,6 +56,7 @@ categories: rfm
 |4| Progress of Anim & Setter | 150 |
 |5| Forbidden technology <br>&<br> Notorious Assassin | 150 |
 |6| Haughty Nexus | 150 |
+|7| Horrific Fate | 150 |
 
 [分散レートについてはこちら](http://web.njj12.net/rfm/rate/shl)<br/>
 
