@@ -13,14 +13,14 @@ Project-RFMではミッションなどの演出でボスバーやタイトル、
 ## 言語設定  
 言語は使いやすい言語で構いません。<br>
 しかしユニコードの設定は**ON**を推奨します。<br>
-※ボスバー、タイトル表記が全て映らない可能性が出てきます。<br>
+<br>
 
 言語設定から進んでください。<br>
 <a><img src="http://web.njj12.net/public/images/rfm/setting/lang1.png"></a><br>
 左下部分がONになっており文字が太くなっていないなら設定完了です。<br>
 <a><img src="http://web.njj12.net/public/images/rfm/setting/lang2.png"></a><br>
 
-以下の状態は非推奨です。
+以下の状態は非推奨です。※ボスバー、タイトル表記が全て映らない可能性が出てきます。<br>
 <a><img src="http://web.njj12.net/public/images/rfm/setting/lang3.png"></a><br>
 
 ---------------------------------------------------------------------------
