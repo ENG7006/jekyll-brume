@@ -44,4 +44,7 @@
         <type>POLAR_BEAR</type>
         <type>BAT</type>
  </mob_spawn>
+  <!-- OPG終了時のTP  true/falseでの記述 
+   trueでテレポートを行う-->
+ <opg_tp>false</opg_tp>
 </map>
