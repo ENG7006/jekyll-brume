@@ -3,6 +3,6 @@ permalink: /update.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <update>
- <version>4.7.5</version>
- <desc>Skill</desc>
+ <version>4.7.6</version>
+ <desc>細かい修正</desc>
 </update>
