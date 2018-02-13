@@ -79,7 +79,10 @@ categories: rfm
 このように完全に出入りができない地点が2箇所あると牢獄/生存地点を簡単に設定できます。<br>
 <img src="http://web.njj12.net/public/images/rfm/maps/jails.png"><br>
 
+----------------------------------------------------
+## 関連リンク
 
+[map.xml](http://web.njj12.net/rfm/xml)
 
 
 
