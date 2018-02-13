@@ -22,7 +22,8 @@ categoris: rfm
 <img src="http://web.njj12.net/public/images/rfm/maps/mizu.png"><br>  
 
 これらの場所には立ち入ることができないように建築を行ってください。<br>
-  
+ゲーム性が失われる原因になりかねません<br>
+
 ----------------------------------------------------
 ## 注意
 
@@ -37,7 +38,7 @@ categoris: rfm
 ## 注意2
 
 上層階の移動などに極力ハシゴを使用しないでください。
-<img src="http://web.njj12.net/public/images/rfm/maps/hashigo.png"><br>
+<img src="http://web.njj12.net/public/images/rfm/maps/hasigo.png"><br>
 階段を使用するか[リフト](http://web.njj12.net/rfm/update/468)を使用するなどの対策を行ってください。<br>
 ハンターがハシゴで移動中に卵で止められた場合や、確保をした場合に位置が下がってしまうためです。<br>
 
