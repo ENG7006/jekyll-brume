@@ -1,6 +1,6 @@
 ---
 layout: draw
-title: マップ作成ガイド
+title: マップ制作ガイド
 permalink: /rfm/mapc
 categories: rfm
 ---
