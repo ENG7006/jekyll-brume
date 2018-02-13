@@ -29,7 +29,7 @@ categoris: rfm
 
  + 各種フェンス
 <img src="http://web.njj12.net/public/images/rfm/maps/fence1.png"><br>
-フェンスに乗ることができないように建築をください。<br>
+フェンスに乗ることができないように建築を行ってください。<br>
 
 <img src="http://web.njj12.net/public/images/rfm/maps/fence2.png"><br>
 このように1マスに満たないブロックの下にもフェンスは配置しないでください<br>
