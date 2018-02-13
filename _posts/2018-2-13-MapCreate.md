@@ -2,7 +2,7 @@
 layout: draw
 title: マップ作成ガイド
 permalink: /rfm/mapc
-categoris: rfm
+categories: rfm
 ---
 
 ここではマップを作成する際の注意点等を記します。<br>
