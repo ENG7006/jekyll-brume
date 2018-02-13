@@ -39,7 +39,7 @@ categoris: rfm
 
 上層階の移動などに極力ハシゴを使用しないでください。
 <img src="http://web.njj12.net/public/images/rfm/maps/hasigo.png"><br>
-階段を使用するか[リフト](http://web.njj12.net/rfm/update/468)を使用するなどの対策を行ってください。<br>
+階段を使用するか[リフト](http://web.njj12.net/rfm/update/468#lift)を使用するなどの対策を行ってください。<br>
 ハンターがハシゴで移動中に卵で止められた場合や、確保をした場合に<br>
 ハンターの位置がずれてしまうためです。<br>
 
@@ -53,6 +53,16 @@ categoris: rfm
 <img src="http://web.njj12.net/public/images/rfm/maps/kakure1.png"><br>
 
 しかし隠れ場所が多すぎると確保率が下がってしまう為、配置し過ぎには要注意です。<br>
+
+----------------------------------------------------
+## 広さ
+
+マップは適度な広さを意識してください。<br>
+縦または横にある程度の広さがあると望ましいですが、<br>
+その限りではありません。いいかんじにしましょう<br>
+<img src="http://web.njj12.net/public/images/rfm/maps/hirosa.png"><br>
+
+
 
 ----------------------------------------------------
 ## 牢獄/生存地点
