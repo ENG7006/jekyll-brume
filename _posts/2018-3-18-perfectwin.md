@@ -8,7 +8,7 @@ permalink: /rfm/perfectwin
 
 PerfectWinは逃走中のゲームに於いて完全勝利したプレイヤーに送られる<br>
 特別報酬です。
-<img src="http://web.njj12.net/public/images/skill/skill1.png"><br>
+<img src="http://web.njj12.net/public/images/rfm/perfectwin.png"><br>
 
 
 ---------------------------------------
