@@ -49,7 +49,6 @@ categories: rfm
 ## リフト  
   
 ビーコンの上にネザー推奨鉱石を設置するとリフトとして認識されます。  
-<a><img src="http://web.njj12.net/public/images/lift1.png"></a>
 リフトの上に乗りスニークをすることで同じY軸の上にあるリフト地点までテレポートします。
 
 <a><img src="http://web.njj12.net/public/images/lift2.png"></a><br>
