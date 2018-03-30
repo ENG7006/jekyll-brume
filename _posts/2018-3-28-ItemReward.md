@@ -46,8 +46,8 @@ permalink: /rfm/itemreward
     - 守護星  
     - ItonesCard  
     - 成功の知識
-- テーブルE  
-    - ガチャチケSP 
+- テーブルE  
+    - ガチャチケSP  
     - 光の衣  
     - 闇の衣  
 
