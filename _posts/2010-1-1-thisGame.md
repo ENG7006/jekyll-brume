@@ -52,7 +52,7 @@ categories: rfm
 <a><img src="http://web.njj12.net/public/images/lift1.png"></a>
 リフトの上に乗りスニークをすることで同じY軸の上にあるリフト地点までテレポートします。
 
-<a><img src="http://web.njj12.net/public/images/lift2.png"></a>
+<a><img src="http://web.njj12.net/public/images/lift2.png"></a><br>
 リフトの上に乗り、足場のネザー推奨鉱石をクリックすることで、同じY軸の下にあるリフト地点までテレポートします。
 
 リフトは連続で使用することはできずクールタイムが発生します。
