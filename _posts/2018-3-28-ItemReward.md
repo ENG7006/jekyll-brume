@@ -32,7 +32,7 @@ permalink: /rfm/itemreward
     -携帯作業台  
 - テーブルC  
     -成功の証   
-    -Amozon  
+    -Amozon  
     -背水の陣  
     -反撃の兆候  
     -トマトマ時計  
@@ -43,7 +43,7 @@ permalink: /rfm/itemreward
     -兎と僕  
     -脱獄計画  
     -ハンターの目  
-    -守護星  
+    -守護星    
     -ItonesCard  
     -成功の知識  
 - テーブルE  
