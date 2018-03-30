@@ -66,5 +66,5 @@ categories: rfm
 プラグインの仕様で落下ダメージは無効化されています。<br>
 その変わりに***落下ダメージを鈍足に変換***しプレイヤーに付与されます。<br>
 高所からの落下には注意しましょう。<br>
-
+<a><img src="http://web.njj12.net/public/images/rfm/slow.png"></a><br>
   
