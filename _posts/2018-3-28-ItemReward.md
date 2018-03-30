@@ -31,7 +31,7 @@ permalink: /rfm/itemreward
     - 身代わり人形  
     - 携帯作業台  
 - テーブルC  
-    - 成功の証  
+    - 成功の証   
     - Amozon  
     - 背水の陣  
     - 反撃の兆候  
@@ -45,7 +45,7 @@ permalink: /rfm/itemreward
     - ハンターの目  
     - 守護星  
     - ItonesCard  
-    - 成功の知識
+    - 成功の知識  
 - テーブルE  
     - ガチャチケSP  
     - 光の衣  
