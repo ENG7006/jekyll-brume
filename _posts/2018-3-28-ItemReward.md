@@ -12,6 +12,7 @@ permalink: /rfm/itemreward
 
 ミッションの難易度に応じてアイテムテーブルが設定されており、<br>
 そのテーブルの中からランダムに抽選され配布されます。<br>
+テーブルは複数に跨っている場合もあります<br>
 
 <img src="http://web.njj12.net/public/images/rfm/ItemReward.png"><br>
 
