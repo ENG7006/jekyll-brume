@@ -48,7 +48,7 @@ permalink: /rfm/itemreward
     - 成功の知識
 - テーブルE  
     - ガチャチケSP  
-    - 光の衣  
+    - 光の衣  
     - 闇の衣  
 
   
