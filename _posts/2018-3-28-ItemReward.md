@@ -21,7 +21,7 @@ permalink: /rfm/itemreward
 
 
 - テーブルA  
-    - 回復の薬  
+    - 回復の薬  
     - 骨の輝き   
     - 羽の輝き   
 - テーブルB  
@@ -30,7 +30,7 @@ permalink: /rfm/itemreward
     - 未知の輝き  
     - 身代わり人形  
     - 携帯作業台  
-- テーブルC 
+- テーブルC  
     - 成功の証  
     - Amozon  
     - 背水の陣  
