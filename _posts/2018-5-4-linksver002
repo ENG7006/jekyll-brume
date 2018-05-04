@@ -1,0 +1,26 @@
+---
+layout: update
+title: ver 0.0.2
+permalink: /links/update/002boc
+<!--- categories: links ---!>
+
+---
+<br>
+<h1 id="1"><font color="red">バグ修正</font></h1><br>
+
++ <span class="green-badge">Dodge Ball Spleef</span>敗北時にアイテムが消えない不具合の修正
+
+
+-----------------------------------------------------------
+
+<br>
+<h1 id="1"><font color="red">機能調整</font></h1><br>
+
++ <span class="blue-badge">Paint Ball</span>ダメージランキングに自分の記録が表示されるように調整
+
++ <span class="green-badge">Dodge Ball Spleef</span>仕打ち用アイテム /dbs s item を追加
+
++ <span class="green-badge">Dodge Ball Spleef</span>TNTが爆破した際、周囲のブロックをゲームのルールに従って変更する機能の追加
+
+
+-----------------------------------------------------------
