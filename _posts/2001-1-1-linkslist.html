@@ -1,0 +1,23 @@
+---
+layout: page
+title: Links ist
+permalink: /links/
+---
+<p class="alert alert-info">Project-Linksに関する記事が表示されます</p>
+<section class="archive">
+
+<div class="bundle row gutters fadeInDown animated">
+<h3 class="post-year col span_3" id="Links">links</h3>
+<div class="posts-by-year col span_9">
+
+  {% for post in site.categories.rfm %}
+  <article class="row gutters">
+  <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
+  <div class="post-date col span_4">
+    <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %b %Y" }}</time>
+  </div>
+</article>
+  {% endfor %}
+
+</div></div>
+</section>
