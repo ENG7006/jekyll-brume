@@ -5,7 +5,7 @@ permalink: /rfm/perfectwin
 categories: rfm
 
 ---
-<p class="alert alert-info">今後、新たな仕様が追加される場合があります</p>
+<p class="alert alert-warning">この仕様は現行Pluginでは使用されていません</p>
 
 PerfectWinは逃走中のゲームに於いて完全勝利したプレイヤーに送られる<br>
 特別報酬です。
