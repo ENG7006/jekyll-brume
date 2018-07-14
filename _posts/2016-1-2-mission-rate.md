@@ -61,3 +61,17 @@ categories: rfm
 
 [分散レートについてはこちら](http://web.njj12.net/rfm/rate/shl)<br/>
 
+-------------------------------------  
+# 超高難易度ミッション2#EP.JOZ   
+  
+|No|ミッション名| 分散レート※1 |
+| :--:| :-----------: |:-------------:|
+|1| Southern Cross Zero | 250 |
+|2| Remaining 5 minutes | 250 |
+|3| Rebirth of Anim | 320 |
+|4| The Ordeal the Zero | 50※2 |
+
+※1.ミッション参加者で分散  
+※2.50を生き残った全体に配布    
+
+
