@@ -3,6 +3,6 @@ permalink: /update.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <update>
- <version>4.9.3</version>
- <desc>4.9.1 -> 4.9.3</desc>
+ <version>4.9.4</version>
+ <desc>4.9.1 -> 4.9.4</desc>
 </update>
