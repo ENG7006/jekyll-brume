@@ -9,7 +9,7 @@ categories: rfm
 
 PerfectWinは逃走中のゲームに於いて完全勝利したプレイヤーに送られる<br>
 特別報酬です。
-<img src="http://web.njj12.net/public/images/rfm/perfectwin2.png"><br>
+<img src="https://web.njj12.net/public/images/rfm/perfectwin2.png"><br>
 
 
 ---------------------------------------
@@ -43,5 +43,5 @@ PPは特定のアクションに応じて付与されます。
 が付与されます。
 
 --------------------------------------
-[旧perfectwin](http://web.njj12.net/rfm/perfectwin)
+[旧perfectwin](https://web.njj12.net/rfm/perfectwin)
 
