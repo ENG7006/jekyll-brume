@@ -32,17 +32,10 @@ categories: rfm
 
 + 通常チャット  
 
-後述するiPhoneを手に持たない状態でチャットをすると通常チャットとして発信されます。<br>
 通常チャットは自身を中心とした**半径25マス以内**にのみ届きます。<br>
 
 <a><img src="http://web.njj12.net/public/images/rfm/chat2.png"></a><br>
 
-+ チームチャット  
-
-手にiPhoneを持って行うチャットはチームチャットになります。<br>
-<a><img src="http://web.njj12.net/public/images/rfm/iphone.png"></a><br>
-<a><img src="http://web.njj12.net/public/images/rfm/chat.png"></a><br>
-このチームチャットは受け取る相手も手にiPhoneをもつ必要があります。<br>
 
 ------------------------------------------
 ## リフト  
