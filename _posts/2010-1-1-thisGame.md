@@ -12,7 +12,7 @@ categories: rfm
 ## ダッシュジャンプの不可
 
 プラグインの仕様でダッシュジャンプができなくなっています。<br>
-<a><img src="http://web.njj12.net/public/images/rfm/dashj.png"></a><br>
+<a><img src="https://web.njj12.net/public/images/rfm/dashj.png"></a><br>
 
 ---------------------------------------
 ## スタミナシステム
@@ -22,7 +22,7 @@ categories: rfm
 ***スタミナが4以下(♥2)***の場合はダッシュができなくなり<br>
 ***更にスタミナが1(♥0.5)***だと盲目が付与されてしまうので注意しましょう。<br>
 
-<a><img src="http://web.njj12.net/public/images/rfm/hp.png"></a><br>
+<a><img src="https://web.njj12.net/public/images/rfm/hp.png"></a><br>
 
 またスタミナですが**スニーク状態でのみ**回復します。<br>
 一部の自然回復増進アイテム使用時もスニークをしないと回復しないので注意しましょう。<br>
@@ -34,7 +34,7 @@ categories: rfm
 
 通常チャットは自身を中心とした**半径25マス以内**にのみ届きます。<br>
 
-<a><img src="http://web.njj12.net/public/images/rfm/chat2.png"></a><br>
+<a><img src="https://web.njj12.net/public/images/rfm/chat2.png"></a><br>
 
 
 ------------------------------------------
