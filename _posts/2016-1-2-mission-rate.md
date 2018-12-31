@@ -2,7 +2,7 @@
 layout: draw
 title: ミッションレート
 permalink: /rfm/rate/mission
-categories: rfm
+categories: rfm_legacy
 ---
 <p class="alert alert-info">順次更新が行われます</p>
  
