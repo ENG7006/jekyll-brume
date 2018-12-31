@@ -2,7 +2,7 @@
 layout: draw
 title: 超高難易度ミッションにおけるレート報酬
 permalink: /rfm/rate/shl
-categories: rfm
+categories: rfm_legacy
 ---
 <p class="alert alert-success">ver4.6.7のアップデートにて実装が完了しました</p>
 
