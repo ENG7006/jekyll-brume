@@ -2,7 +2,7 @@
 layout: draw
 title: Perfect Win 2.0
 permalink: /rfm/perfectwin2
-categories: rfm
+categories: rfm_legacy
 
 ---
 <p class="alert alert-info">今後、新たな仕様が追加される場合があります</p>
