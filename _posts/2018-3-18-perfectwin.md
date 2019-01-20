@@ -2,7 +2,7 @@
 layout: draw
 title: Perfect Win
 permalink: /rfm/perfectwin
-categories: rfm
+categories: rfm_legacy
 
 ---
 <p class="alert alert-warning">この仕様は現行Pluginでは使用されていません</p>
