@@ -3,7 +3,7 @@ permalink: /update.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <update>
- <version>5.1.0</version>
+ <version>5.1.1</version>
  <desc>bug fix</desc>
  <u>ab</u>
  <rbr>123</rbr>
