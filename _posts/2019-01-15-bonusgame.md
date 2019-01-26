@@ -25,4 +25,13 @@ permalink: /rfm/bonusgame
 
 
 
+#### 運営向け  
+
+コマンドで開始するかどうかを決定できます。  
+/rfm (bonus/bns) (on/off)  
+ボーナスゲームはGameRecordの保存終了後に開始されます。  
+
+
+
+
  
