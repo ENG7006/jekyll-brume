@@ -9,7 +9,18 @@ layout: default
 
   {{ content }}
   <hr>
-  <a><img src="https://web.njj12.net/public/images/rfm/updateWarn.png"></a><br>
+  
+  <script type="text/javascript">
+var lists=[
+    '<a><img src="https://web.njj12.net/public/images/rfm/updateWarn2.png"></a><br>', 
+    ' <a><img src="https://web.njj12.net/public/images/rfm/updateWarn.png"></a><br>', 
+  
+];
+var rNo = Math.floor(Math.random() * lists.length);
+document.getElementById('myplace').innerHTML = lists[rNo];
+</script>
+  
+ 
   <hr>
   <p style="text-align:center"><a href="https://web.njj12.net/rfm/"><strong>一覧へ戻る</strong></a><br/></p>
   <hr>
