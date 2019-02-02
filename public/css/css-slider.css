@@ -17,12 +17,12 @@
 	position: relative;
 	left: 0;
 	will-change: transform;
-	animation: slider 30s infinite;
+	animation: slider 45s infinite;
 }
 
 @keyframes slider {
   0% { transform: translateX(0); }
   33% { transform: translateX(-854px); }
   66% { transform: translateX(-1708px); }
-  100% { transform: translateX(0); }
+  100% { transform: translateX(854px); }
 }
