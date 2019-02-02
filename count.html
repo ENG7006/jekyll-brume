@@ -70,10 +70,7 @@ var currentTime, period,
         // フレーム
         cFlame = Math.floor(period / (10));
  
-        // 残り日数の書き換え
  
-        // カウントダウンの処理を再実行
-        setTimeout(countdown, 10);
       // 結果を表示
         document.getElementById('remainingDays').innerHTML = cDay + "/";
         document.getElementById('remainingTime').innerHTML = padZero(cHour)+':'+padZero(cMinute)+':'+padZero(cSecond);
