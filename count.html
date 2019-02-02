@@ -33,7 +33,7 @@
         // 現在時刻とターゲットの時刻の差を算出
         var target = new Date(2019, 2, 3, 1, 0, 0).getTime();
         var now = Date.now();
-        var diff = (target - now.getTime()) / 1000;
+        var diff = (target - now) / 1000;
                         
         // 残り日数や時間を計算
         var d = Math.floor(diff / 60 / 60 / 24);
