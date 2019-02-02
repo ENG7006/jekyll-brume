@@ -23,15 +23,13 @@
 <link rel="stylesheet" href="{{site.baseurl}}/public/css/css-slider.css">
 
 <!-- slider -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
- <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-<script type="text/javascript">
-        $(document).ready(function(){
-            $('.bxslider').bxSlider({
-                auto: true,
-            });
-        });
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="{{site.baseurl}}/public/js/jquery.bxslider.js"></script>
+<link rel="stylesheet" href="{{site.baseurl}}/public/css/jquery.bxslider.css">
+<script>
+ $(document).ready(function(){
+   $('.bxslider').bxSlider();
+ });
 </script>
 
 <!-- Google fonts -->
