@@ -27,7 +27,7 @@
 
     <img src="https://web.njj12.net/public/images/rfm/title.png" style="width:100%;height:auto;" /><br>
   
-    <p><span id="remainingDays"></span> days  to go....</p>
+    <p><span id="remainingDays"></span></p>
     
     <script>
     function getResult() {
@@ -55,7 +55,7 @@
        diff2Dates = diff2Dates % ( 1000 * 60 );
        var dSec   = diff2Dates / 1000; // 秒
         
-        var msg2 = Math.floor(dDays) + "days"
+        var msg2 = Math.floor(dDays) + "days "
          + Math.floor(dHour) + ":"
          + Math.floor(dMin) + ":"
          + Math.floor(dSec) + "";
