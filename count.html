@@ -27,7 +27,8 @@
 
     <img src="https://web.njj12.net/public/images/rfm/title.png" style="width:100%;height:auto;" /><br>
   
-    <p><span id="remainingDays"></span> days <span id="remainingTime"></span> to go...</p>
+    <p><span id="remainingDays"></span> days <span id="remainingTime"></span> to go...</p><br>
+    <p><span id="no"></span>
     <script>
     function getResult() {
         // 現在時刻とターゲットの時刻の差を算出
@@ -47,6 +48,7 @@
         // 結果を表示
         document.getElementById('remainingDays').innerHTML = d;
         document.getElementById('remainingTime').innerHTML = padZero(h)+':'+padZero(m)+':'+padZero(s);
+        document.getElementById('no').innerHTML = now;
         
         // 繰り返し処理
         setTimeout(function() {
