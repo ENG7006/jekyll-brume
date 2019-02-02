@@ -17,7 +17,7 @@
 	position: relative;
 	left: 0;
 	will-change: transform;
-	animation: slider 10s infinite;
+	animation: slider 30s infinite;
 }
 
 @keyframes slider {
