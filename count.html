@@ -56,9 +56,9 @@
        var dSec   = diff2Dates / 1000; // 秒
         
         var msg2 = Math.floor(dDays) + "days "
-         + Math.floor(dHour) + ":"
-         + Math.floor(dMin) + ":"
-         + Math.floor(dSec) + "";
+         + padZero(Math.floor(dHour)) + ":"
+         + padZero(Math.floor(dMin)) + ":"
+         + padZero(Math.floor(dSec)) + "";
         
         var msg;
         if( dnumTarget > dnumNow ) {
