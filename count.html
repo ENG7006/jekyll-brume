@@ -32,12 +32,12 @@
     <script>
     function getResult() {
         // 現在時刻とターゲットの時刻の差を算出
-        var inputYear  = document.getElementById(2019).value;
-        var inputMonth = document.getElementById("2").value - 1;
-        var inputDate  = document.getElementById("3").value;
-        var inputHour  = document.getElementById("1").value;
-        var inputMin   = document.getElementById("0").value;
-        var inputSec   = document.getElementById("0").value;
+        var inputYear  = 2019;
+        var inputMonth = 2 - 1;
+        var inputDate  = 3;
+        var inputHour  = 1;
+        var inputMin   = 0;
+        var inputSec   = 0;
         
         var target = new Date(inputYear, inputMonth, inputDate, inputHour, inputMin, inputSec ).getTime();
         
