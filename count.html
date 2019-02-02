@@ -27,7 +27,7 @@
 
     <img src="https://web.njj12.net/public/images/rfm/title.png" style="width:100%;height:auto;" /><br>
   
-    <p><span id="remainingDays"></span> days  to go..</p>
+    <p><span id="remainingDays"></span> days  to go....</p>
     
     <script>
     function getResult() {
@@ -39,7 +39,7 @@
         var inputMin   = 0;
         var inputSec   = 0;
         
-        var target = new Date(inputYear, inputMonth, inputDate, inputHour, inputMin, inputSec ).getTime();
+        var targetDate = new Date( inputYear, inputMonth, inputDate, inputHour, inputMin, inputSec );   
         var dnumTarget = targetDate.getTime();
         
         var nowDate = new Date();
