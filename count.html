@@ -56,8 +56,18 @@
          + Math.floor(dHour) + "時間"
          + Math.floor(dMin) + "分"
          + Math.floor(dSec) + "秒";
+        
+        var msg;
+        if( dnumTarget > dnumNow ) {
+          // まだ期限が来ていない場合
+            msg = "until " + msg2 + "";
+          }else {
+           // 期限が過ぎた場合
+            msg = "coming today";
+         }
+        
         // 結果を表示
-        document.getElementById('remainingDays').innerHTML = msg2;
+        document.getElementById('remainingDays').innerHTML = msg;
 //         document.getElementById('remainingTime').innerHTML = padZero(h)+':'+padZero(m)+':'+padZero(s);
         
         // 繰り返し処理
