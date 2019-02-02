@@ -59,7 +59,7 @@
     prevText: 'Prev',
     nextSelector: null,
     prevSelector: null,
-    autoControls: false,
+    autoControls: true,
     startText: 'Start',
     stopText: 'Stop',
     autoControlsCombine: false,
@@ -67,7 +67,7 @@
 
     // AUTO
     auto: true,
-    pause: 4000,
+    pause: 5000,
     autoStart: true,
     autoDirection: 'next',
     stopAutoOnClick: false,
