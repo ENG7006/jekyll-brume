@@ -27,28 +27,34 @@
 
     <img src="https://web.njj12.net/public/images/rfm/title.png" style="width:100%;height:auto;" /><br>
   
-    <p><span id="result"></span>...</p>
+    <p><span id="remainingDays"></span> days <span id="remainingTime"></span> to go...</p>
+    
     <script>
     function getResult() {
         // 現在時刻とターゲットの時刻の差を算出
-        var DAYSTART = Date.now();
-        var DAYEND   = new Date('2019/02/03 01:00:00');
-        var INTERVAL = 1000;
-        var calc = new Date(+DAYEND - DAYSTART + INTERVAL);    
+        var inputYear  = document.getElementById("2019").value;
+        var inputMonth = document.getElementById("2").value - 1;
+        var inputDate  = document.getElementById("3").value;
+        var inputHour  = document.getElementById("1").value;
+        var inputMin   = document.getElementById("0").value;
+        var inputSec   = document.getElementById("0").value;
+        
+        var target = new Date(inputYear, inputMonth, inputDate, inputHour, inputMin, inputSec ).getTime();
+        var now = Date.now();
+        var diff = (target - now) / 1000;
                         
-       if (+new Date(calc) <= INTERVAL) {
-    document.getElementById('result').textContent = '終了しました。';
-  } else {
-    calc = new Date(+new Date(calc) - INTERVAL);
-    var date = calc.getUTCDate() - 1 ? calc.getUTCDate() - 1 + '日' : '';
-    var hours = calc.getUTCHours() ? calc.getUTCHours() + '時間' : '';
-    var minutes = addZero(calc.getUTCMinutes()) + '分';
-    var seconds = addZero(calc.getUTCSeconds()) + '秒';
-    document.getElementById('result').textContent = date + hours + minutes + seconds;
-  }
+        // 残り日数や時間を計算
+        var d = Math.floor(diff / 60 / 60 / 24);
+        diff = diff - 60 * 60 * 24 * d;
+        var h = Math.floor(diff / 60 / 60);
+        diff = diff - 60 * 60 * h;
+        var m = Math.floor(diff / 60);
+        diff = diff - 60 * m;
+        var s = Math.floor(diff);
+        
         // 結果を表示
-//         document.getElementById('remainingDays').innerHTML = d;
-//         document.getElementById('remainingTime').innerHTML = padZero(h)+':'+padZero(m)+':'+padZero(s);
+        document.getElementById('remainingDays').innerHTML = d;
+        document.getElementById('remainingTime').innerHTML = padZero(h)+':'+padZero(m)+':'+padZero(s);
         
         // 繰り返し処理
         setTimeout(function() {
