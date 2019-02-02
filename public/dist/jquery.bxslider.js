@@ -10,11 +10,11 @@
   var defaults = {
 
     // GENERAL
-    mode: 'fade',
+    mode: 'horizontal',
     slideSelector: '',
     infiniteLoop: true,
     hideControlOnEnd: false,
-    speed: 800,
+    speed: 1000,
     easing: null,
     slideMargin: 0,
     startSlide: 0,
