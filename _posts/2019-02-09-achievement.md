@@ -2,7 +2,7 @@
 layout: draw
 title: Achievement
 permalink: /rfm/achievement
-<!--- categories: rfm  ---!>
+categories: rfm
 
 ---
 
