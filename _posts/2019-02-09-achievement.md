@@ -6,7 +6,8 @@ categories: rfm
 
 ---
 
-
+  
+    
 逃走中内で行ったアクションにより実績が記録されるようになりました。  
 <img src="https://web.njj12.net/public/images/rfm/Achievement.png"><br>
 
@@ -38,6 +39,6 @@ GUI内には最初、黒曜石のオブジェクトが設置されており、�
 
 実績解放数により称号が付与されます。 
 この称号は通常の称号とは異なり名前の前ではなく後ろに表示されます。  
-また自動設定となり通常の称号と同時に表示されます。
+また自動設定となり通常の称号と同時に表示されます。  
 <img src="https://web.njj12.net/public/images/rfm/ach_pre.png"><br>
 
