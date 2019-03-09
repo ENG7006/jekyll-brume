@@ -1,0 +1,47 @@
+name: njj12
+rate: 1000.0
+money: 1173
+rep: 780
+ignore_hunter: false
+prefix:
+  default: 11
+  mapper: true
+  developer: true
+  broadcaster: true
+  rate1st: true
+  dailyrate: true
+  dailymoney: true
+  thank2017: true
+  omikuji2018: true
+  spthanksdev: true
+  missiondesigner: true
+  operationmanager: true
+skill:
+  falleffect: 0
+  bonusitem: 0
+month: 35.0
+ach:
+  winhunter: 0
+  winplayer: 5
+  winultimate: 0
+  playtime: 114
+  joincount: 17
+  itemused: 0
+  itemfailed: 0
+  missionjoin:
+    normal: 0
+    ep1: 0
+    ep2: 0
+    ep3: 0
+  catch:
+    hunter: 0
+    player: 0
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 105
+    used: 102
+  recipe: 0
+  thanks: 0
+  jackpot: 0
