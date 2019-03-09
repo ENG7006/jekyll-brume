@@ -8,9 +8,9 @@ permalink: /test2
 
 {% for org_hash in site.data.rfm.player %}
 {% assign org = org_hash[1] %}
-  
+  <h5 id="{{ org.name }}">{{ org.name }}</h2>
     <img src="https://cravatar.eu/helmhead/{{ org.name }}.png"><br>
-      {{ org.name }} / {{ org.money }}万円 /  {{ org.rep }} rep 
+      {{ org.money }}万円 /  {{ org.rep }} rep 
   <br>
 {% endfor %}
 
