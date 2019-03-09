@@ -1,6 +1,6 @@
 ---
 layout: test
-permalink: /test2
+permalink: /rfm/players
 ---
 
 <h2>RFM Player Data</h2><br>
@@ -12,10 +12,10 @@ permalink: /test2
 <!-- ここからモーダルウィンドウ -->
 <div id="modal-content-01" class="modal-content">
 	<!-- モーダルウィンドウのコンテンツ開始 -->
-	<p>{{ org.name }}</p>
-	<p>{{ org.money }}</p>
-     <p>{{ org.rep }}</p>
-<p><a id="modal-close" class="button-link">閉じる</a></p>
+	<p><b>{{ org.name }}</b></p>
+	<p>獲得賞金: {{ org.money }}万円</p>
+        <p>REP: {{ org.rep }}</p>
+<p><a id="modal-close" class="button-link"></a></p>
 	<!-- モーダルウィンドウのコンテンツ終了 -->
 </div>
 
