@@ -10,18 +10,9 @@ permalink: /test2
 {% assign org = org_hash[1] %}
   <li>
     <a href="https://github.com/{{ org.name }}">
-      {{ org.name }}
+      {{ org.name }} / {{ org.money }} /  {{ org.rep }} 
     </a>
   </li>
 {% endfor %}
 </ul>
 
-<ul>
-{% for member in site.data.rfm.player %}
-  <li>
-    <a href="https://github.com/{{ member.name }}">
-      {{ member.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
