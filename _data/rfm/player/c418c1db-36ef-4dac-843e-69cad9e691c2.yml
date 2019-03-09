@@ -1,0 +1,42 @@
+name: poteito_202
+rate: 1000
+month: 0
+money: 0
+rep: 344
+ignore_hunter: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+ach:
+  winhunter: 0
+  winplayer: 2
+  winultimate: 0
+  playtime: 9451
+  joincount: 8
+  itemused: 55
+  itemfailed: 1
+  missionjoin:
+    normal: 2
+    ep1: 1
+    ep2: 3
+    ep3: 4
+  catch:
+    hunter: 0
+    player: 43
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 30
+    used: 30
+  recipe: 0
+  thanks: 0
+  jackpot: 0

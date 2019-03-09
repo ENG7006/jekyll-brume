@@ -1,0 +1,57 @@
+name: hachi110
+rate: 1000.0
+money: 28
+rep: 292
+ignore_hunter: false
+prefix:
+  default: 1
+  mapper: false
+  developer: false
+  broadcaster: false
+  rate1st: false
+  dailyrate: false
+  dailymoney: false
+  thank2017: false
+  omikuji2018: false
+  spthanksdev: false
+  operationmanager: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+  despairresistance: 0
+  starback: 0
+  prefixengine: 0
+month: 801.0
+ach:
+  winhunter: 0
+  winplayer: 0
+  winultimate: 0
+  playtime: 1680
+  joincount: 1
+  itemused: 0
+  itemfailed: 0
+  missionjoin:
+    normal: 0
+    ep1: 0
+    ep2: 0
+    ep3: 0
+  catch:
+    hunter: 54
+    player: 0
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 28
+    used: 0
+  recipe: 0
+  thanks: 0
+  jackpot: 0

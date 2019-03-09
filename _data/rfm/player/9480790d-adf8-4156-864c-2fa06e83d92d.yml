@@ -1,0 +1,43 @@
+name: p_rfm
+rate: 1000
+month: 0
+money: 68
+rep: 165
+ignore_hunter: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+ach:
+  winhunter: 0
+  winplayer: 5
+  winultimate: 0
+  playtime: 360
+  joincount: 6
+  itemused: 3
+  itemfailed: 0
+  missionjoin:
+    normal: 4
+    ep1: 0
+    ep2: 0
+    ep3: 0
+  catch:
+    hunter: 0
+    player: 1
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 68
+    used: 0
+  thanks: 0
+  jackpot: 0
+  bonusgame:
+    passover: 0

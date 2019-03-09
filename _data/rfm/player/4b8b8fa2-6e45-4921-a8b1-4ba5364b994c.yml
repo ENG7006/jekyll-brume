@@ -1,0 +1,17 @@
+name: L0_0K
+rate: 1000
+month: 0
+money: 25
+rep: 71
+ignore_hunter: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0

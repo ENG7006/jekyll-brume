@@ -1,0 +1,41 @@
+name: yui7398
+rate: 1000
+month: 0
+money: 0
+rep: 0
+ignore_hunter: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+ach:
+  winhunter: 0
+  winplayer: 0
+  winultimate: 0
+  playtime: 0
+  joincount: 0
+  itemused: 0
+  itemfailed: 0
+  missionjoin:
+    normal: 0
+    ep1: 0
+    ep2: 0
+    ep3: 0
+  catch:
+    hunter: 0
+    player: 0
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 0
+    used: 0
+  recipe: 0
+  thanks: 0

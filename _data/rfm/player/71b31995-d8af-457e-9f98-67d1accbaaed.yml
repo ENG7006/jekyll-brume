@@ -1,0 +1,44 @@
+name: yowaihito0317
+rate: 1000.0
+month: 1240.0
+money: 190
+rep: 649
+ignore_hunter: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+ach:
+  winhunter: 1
+  winplayer: 4
+  winultimate: 0
+  playtime: 16073
+  joincount: 11
+  itemused: 85
+  itemfailed: 3
+  missionjoin:
+    normal: 8
+    ep1: 5
+    ep2: 2
+    ep3: 1
+  catch:
+    hunter: 31
+    player: 27
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 110
+    used: 93
+  thanks: 0
+  jackpot: 0
+  bonusgame:
+    passover: 0
+birth: 1

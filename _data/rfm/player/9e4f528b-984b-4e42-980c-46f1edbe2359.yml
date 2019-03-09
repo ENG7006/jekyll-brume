@@ -1,0 +1,30 @@
+name: chil_felun
+rate: 1000.0
+money: 131
+rep: 264
+ignore_hunter: false
+prefix:
+  default: 1
+  mapper: false
+  developer: false
+  broadcaster: false
+  rate1st: false
+  dailyrate: false
+  dailymoney: false
+  thank2017: false
+  omikuji2018: false
+skill:
+  hpdownheal: 0
+  bonusitem: 5
+  firststar: 0
+  faileditem: 0
+  effectitem: 0
+  falleffect: 0
+  darkeye: 0
+  starback: 0
+  stopheart: 0
+  tiredprotect: 0
+  rejailct: 0
+  prefixengine: 0
+  despairresistance: 0
+month: 163.0

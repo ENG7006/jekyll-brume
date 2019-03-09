@@ -1,0 +1,45 @@
+name: puputatan
+rate: 1100.0
+month: 435.0
+money: 207
+rep: 639
+ignore_hunter: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+  starback: 0
+  prefixengine: 0
+  despairresistance: 0
+ach:
+  winhunter: 0
+  winplayer: 2
+  winultimate: 1
+  playtime: 9821
+  joincount: 9
+  itemused: 50
+  itemfailed: 1
+  missionjoin:
+    normal: 6
+    ep1: 0
+    ep2: 2
+    ep3: 3
+  catch:
+    hunter: 0
+    player: 36
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 32
+    used: 0
+  recipe: 0
+  thanks: 0
+  jackpot: 0

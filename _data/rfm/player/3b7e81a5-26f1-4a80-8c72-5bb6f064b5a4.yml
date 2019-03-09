@@ -1,0 +1,20 @@
+name: massann_787
+rate: 1000.0
+money: 0
+rep: 150
+ignore_hunter: false
+skill:
+  bonusitem: 8
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+  starback: 0
+  prefixengine: 0
+  despairresistance: 0
+month: 0

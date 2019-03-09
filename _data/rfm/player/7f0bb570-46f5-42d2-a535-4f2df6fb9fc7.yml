@@ -1,0 +1,56 @@
+name: Yussan
+rate: 1000.0
+money: 781
+rep: 2161
+ignore_hunter: false
+prefix:
+  default: 4
+  mapper: false
+  developer: false
+  broadcaster: true
+  rate1st: false
+  dailyrate: false
+  dailymoney: false
+  missiondesigner: true
+  spthanksdev: true
+skill:
+  falleffect: 0
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  firststar: 0
+  darkeye: 0
+  starback: 0
+  stopheart: 0
+  tiredprotect: 0
+  rejailct: 0
+  prefixengine: 0
+  despairresistance: 0
+month: 34.0
+birth: 0
+ach:
+  winhunter: 0
+  winplayer: 0
+  winultimate: 0
+  playtime: 8805
+  joincount: 52
+  itemused: 26
+  itemfailed: 2
+  missionjoin:
+    normal: 9
+    ep1: 4
+    ep2: 0
+    ep3: 0
+  catch:
+    hunter: 29
+    player: 13
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 304
+    used: 593
+  recipe: 0
+  thanks: 1
+  jackpot: 0

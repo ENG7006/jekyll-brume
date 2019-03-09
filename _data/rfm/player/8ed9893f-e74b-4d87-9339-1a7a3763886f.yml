@@ -1,0 +1,55 @@
+name: riku0745
+rate: 1000.0
+money: 330
+rep: 2770
+ignore_hunter: false
+prefix:
+  default: 12
+  mapper: true
+  developer: false
+  broadcaster: false
+  rate1st: false
+  dailyrate: false
+  dailymoney: false
+  operationmanager: true
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 6
+  hpdownheal: 0
+  falleffect: 0
+  firststar: 0
+  darkeye: 0
+  starback: 0
+  stopheart: 0
+  tiredprotect: 0
+  rejailct: 0
+  prefixengine: 0
+  despairresistance: 0
+month: 5327.0
+birth: 0
+ach:
+  winhunter: 3
+  winplayer: 14
+  winultimate: 0
+  playtime: 55465
+  joincount: 53
+  itemused: 1089
+  itemfailed: 31
+  missionjoin:
+    normal: 82
+    ep1: 19
+    ep2: 6
+    ep3: 24
+  catch:
+    hunter: 237
+    player: 136
+  zundaslot: 0
+  omikuji: 0
+  slothit: 1
+  money:
+    get: 832
+    used: 1372
+  recipe: 99
+  thanks: 1
+  jackpot: 0

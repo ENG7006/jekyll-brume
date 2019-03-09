@@ -1,0 +1,53 @@
+name: suzukizoku
+rate: 1000.0
+money: 19
+rep: 1504
+ignore_hunter: false
+prefix:
+  default: 1
+  mapper: false
+  developer: false
+  broadcaster: false
+  rate1st: true
+  dailyrate: false
+  dailymoney: false
+  thank2017: false
+  omikuji2018: false
+  spthanksdev: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+month: 1424.0
+ach:
+  winhunter: 1
+  winplayer: 9
+  winultimate: 0
+  playtime: 45220
+  joincount: 32
+  itemused: 215
+  itemfailed: 15
+  missionjoin:
+    normal: 14
+    ep1: 2
+    ep2: 4
+    ep3: 9
+  catch:
+    hunter: 158
+    player: 98
+  zundaslot: 0
+  omikuji: 0
+  slothit: 1
+  money:
+    get: 507
+    used: 547
+  recipe: 2
+  thanks: 0
+  jackpot: 0

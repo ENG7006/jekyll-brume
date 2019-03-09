@@ -1,0 +1,45 @@
+name: Syuryu0919
+rate: 1000.0
+month: 2198.0
+money: 451
+rep: 1545
+ignore_hunter: false
+skill:
+  bonusitem: 3
+  effectitem: 0
+  faileditem: 2
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+  starback: 0
+  prefixengine: 0
+  despairresistance: 0
+ach:
+  winhunter: 1
+  winplayer: 7
+  winultimate: 0
+  playtime: 39505
+  joincount: 32
+  itemused: 404
+  itemfailed: 16
+  missionjoin:
+    normal: 46
+    ep1: 4
+    ep2: 6
+    ep3: 7
+  catch:
+    hunter: 12
+    player: 143
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 174
+    used: 67
+  recipe: 22
+  thanks: 1
+  jackpot: 0

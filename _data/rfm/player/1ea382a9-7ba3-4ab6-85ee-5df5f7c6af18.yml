@@ -1,0 +1,56 @@
+name: Takashing_1185
+rate: 1000.0
+money: 427
+rep: 2931
+ignore_hunter: false
+prefix:
+  default: 2
+  mapper: true
+  developer: false
+  broadcaster: false
+  rate1st: false
+  dailyrate: false
+  dailymoney: false
+  thank2017: false
+  omikuji2018: false
+skill:
+  faileditem: 6
+  starback: 0
+  bonusitem: 0
+  hpdownheal: 0
+  falleffect: 0
+  firststar: 0
+  darkeye: 0
+  effectitem: 0
+  stopheart: 0
+  tiredprotect: 0
+  rejailct: 0
+  prefixengine: 0
+  despairresistance: 0
+month: 6711.0
+birth: 0
+ach:
+  winhunter: 1
+  winplayer: 17
+  winultimate: 0
+  playtime: 71848
+  joincount: 49
+  itemused: 680
+  itemfailed: 30
+  missionjoin:
+    normal: 122
+    ep1: 23
+    ep2: 16
+    ep3: 20
+  catch:
+    hunter: 229
+    player: 131
+  zundaslot: 0
+  omikuji: 0
+  slothit: 2
+  money:
+    get: 824
+    used: 2112
+  recipe: 29
+  thanks: 0
+  jackpot: 1

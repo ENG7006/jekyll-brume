@@ -1,0 +1,43 @@
+name: berazu
+rate: 1000.0
+money: 23
+rep: 276
+ignore_hunter: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+month: 0
+ach:
+  winhunter: 0
+  winplayer: 0
+  winultimate: 0
+  playtime: 4985
+  joincount: 4
+  itemused: 59
+  itemfailed: 3
+  missionjoin:
+    normal: 1
+    ep1: 1
+    ep2: 0
+    ep3: 1
+  catch:
+    hunter: 29
+    player: 22
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 34
+    used: 11
+  thanks: 0
+  jackpot: 0
+  bonusgame:
+    passover: 0

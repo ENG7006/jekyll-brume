@@ -1,0 +1,16 @@
+name: Ritzy515
+rate: 1000.0
+money: 0
+rep: 150
+ignore_hunter: false
+prefix:
+  default: 1
+  mapper: false
+  developer: false
+  broadcaster: false
+  rate1st: false
+  dailyrate: false
+  dailymoney: false
+  thank2017: false
+  omikuji2018: false
+month: 0

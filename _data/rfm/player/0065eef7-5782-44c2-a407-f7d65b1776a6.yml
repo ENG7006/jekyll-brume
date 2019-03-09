@@ -1,0 +1,57 @@
+name: e233kei_JH
+rate: 1000.0
+money: 593
+rep: 931
+ignore_hunter: false
+prefix:
+  default: 2
+  mapper: true
+  developer: false
+  broadcaster: false
+  rate1st: false
+  dailyrate: false
+  dailymoney: false
+  thank2017: false
+  omikuji2018: false
+skill:
+  falleffect: 0
+  hpdownheal: 0
+  darkeye: 0
+  firststar: 0
+  faileditem: 0
+  bonusitem: 0
+  starback: 0
+  effectitem: 0
+  stopheart: 0
+  tiredprotect: 0
+  rejailct: 0
+  prefixengine: 0
+  despairresistance: 0
+month: 1098.0
+ach:
+  winhunter: 0
+  winplayer: 5
+  winultimate: 0
+  playtime: 16297
+  joincount: 17
+  itemused: 101
+  itemfailed: 5
+  missionjoin:
+    normal: 10
+    ep1: 1
+    ep2: 1
+    ep3: 6
+  catch:
+    hunter: 13
+    player: 61
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 221
+    used: 21
+  recipe: 0
+  thanks: 0
+  jackpot: 0
+  bonusgame:
+    passover: 5

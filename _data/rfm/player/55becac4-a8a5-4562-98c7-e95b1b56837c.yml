@@ -1,0 +1,42 @@
+name: Masaki_SASUKE
+rate: 1000.0
+month: 144.0
+money: 235
+rep: 1294
+ignore_hunter: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 0
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+ach:
+  winhunter: 2
+  winplayer: 4
+  winultimate: 0
+  playtime: 34627
+  joincount: 27
+  itemused: 218
+  itemfailed: 13
+  missionjoin:
+    normal: 20
+    ep1: 2
+    ep2: 9
+    ep3: 12
+  catch:
+    hunter: 9
+    player: 143
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 273
+    used: 188
+  recipe: 7
+  thanks: 0
+  jackpot: 0
