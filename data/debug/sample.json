@@ -1,13 +1,3 @@
- {
-    "name"  : "あいうえお",
-    "tag"   : "tag001",
-    "image" : "http://placehold.jp/ff0000/ffffff/150x150.png"
-  },
-  {
-    "name":"かきくけこ",
-    "tag": ["tag001","tag002"],
-    "image" : "http://placehold.jp/00ff00/ffffff/150x150.png"
-  },
   {
     "name":"さしすせそ",
     "tag": ["tag001","tag003"],
