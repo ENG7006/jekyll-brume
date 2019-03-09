@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body bgcolor="#000000">
+    <div class="container azul">
+      <header class="top row gutters{% if page.path == 'index.html' || '' %} fadeInLeft animated{% endif %}">
+        <div class="col span_2 center">
+          <!-- TODO: add baseurl to the logo link -->
+          <a href="https://web.njj12.net/" id="logo" title="njjjjj"
+             style="background-image: url({{site.baseurl}}/public/images/logo.png);"></a>
+        </div>
+        {% include navigation.html %}
+      </header>
+
+      {{ content }}
+
+      <footer>
+        <p>
+          &copy; 2015-2019 njj12. All rights reserved. | <a href="https://web.njj12.net/rfm/rule">利用規約</a><br><br>
+       <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://web.njj12.net">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <br>    
+      </footer>
+    </div>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(function(){
+  $.getJSON('{{site.baseurl}}/_data/debug/sample.json' , function(data) {
+    console.log(data);
+  });
+});
+</script>
+  </body>
+</html>
