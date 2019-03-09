@@ -3,22 +3,15 @@ layout: test
 permalink: /test2
 ---
 
-### test  
+###test    
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.90/jsrender.js"></script>
-<script id="list_tpl" type="text/x-jsrender">
-<div class="test">
-  <p>Name: {{:name}}</p>
-  <p><img src="{{:image}}"></p>
-  <p>{{:tag}}</p>
-</div>
-</script>
-<script>
-$(function(){
-  $.getJSON("https://web.njj12.net/data/debug/sample.json" , function(data) {
-    $('body').append($('#list_tpl').render(data));
-  });
-});
-</script>
-
+<ul>
+{% for member in site.data.rfm.player %}
+  <li>
+    <a href="https://github.com/{{ member.name }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
