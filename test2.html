@@ -3,4 +3,19 @@ layout: test
 permalink: /test2
 ---
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.90/jsrender.js"></script>
+<script id="list_tpl" type="text/x-jsrender">
+<div class="test">
+  <p>Name: {{:name}}</p>
+  <p><img src="{{:image}}"></p>
+  <p>{{:tag}}</p>
+</div>
+</script>
+<script>
+$(function(){
+  $.getJSON('{{site.baseurl}}/data/debug/sample.json' , function(data) {
+    $('body').append($('#list_tpl').render(data));
+  });
+});
+</script>
 
