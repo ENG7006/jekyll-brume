@@ -1,5 +1,4 @@
-[
-  {
+ {
     "name"  : "あいうえお",
     "tag"   : "tag001",
     "image" : "http://placehold.jp/ff0000/ffffff/150x150.png"
@@ -14,4 +13,3 @@
     "tag": ["tag001","tag003"],
     "image" : "http://placehold.jp/0000ff/ffffff/150x150.png"
   }
-]
