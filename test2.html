@@ -8,7 +8,7 @@ permalink: /test2
 
 {% for org_hash in site.data.rfm.player %}
 {% assign org = org_hash[1] %}
-  <h3 id="{{ org.name }}">{{ org.name }}</h3>
+  <a href="https://web.njj12.net/data/rfm/player/{{ org}}"><h3 id="{{ org.name }}">{{ org.name }}</h3></a>
     <img src="https://cravatar.eu/helmhead/{{ org.name }}.png"><br>
       {{ org.money }}万円 /  {{ org.rep }} rep 
   <br><hr>
