@@ -3,8 +3,18 @@ layout: test
 permalink: /test2
 ---
 
-###test2    
+###test    
 
+<ul>
+{% for org_hash in site.data.rfm.player %}
+{% assign org = org_hash[1] %}
+  <li>
+    <a href="https://github.com/{{ org.name }}">
+      {{ org.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 <ul>
 {% for member in site.data.rfm.player %}
