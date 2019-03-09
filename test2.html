@@ -10,7 +10,7 @@ permalink: /test2
 {% assign org = org_hash[1] %}
  
 <!-- ここからモーダルウィンドウ -->
-<div id="modal-content">
+<div id="modal-content-01" class="modal-content">
 	<!-- モーダルウィンドウのコンテンツ開始 -->
 	<p>{{ org.name }}</p>
 	<p>{{ org.money }}</p>
@@ -19,7 +19,7 @@ permalink: /test2
 	<!-- モーダルウィンドウのコンテンツ終了 -->
 </div>
 
-<p><a id="modal-open" class="button-link"> {{ org.name }} </a></p>
+<p><a class="modal-syncer button-link" data-target="modal-content-01"> {{ org.name }} </a></p>
 <img src="https://cravatar.eu/helmhead/{{ org.name }}.png" title="{{org.name}}">
 <!-- ここまでモーダルウィンドウ -->
 
