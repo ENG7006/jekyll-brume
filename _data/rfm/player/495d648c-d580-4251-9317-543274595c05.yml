@@ -1,0 +1,57 @@
+name: inazuma0415
+rate: 1000.0
+money: 672
+rep: 3207
+ignore_hunter: false
+prefix:
+  default: 1
+  mapper: true
+  developer: false
+  broadcaster: false
+  rate1st: false
+  dailyrate: false
+  dailymoney: false
+  thank2017: false
+  omikuji2018: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 6
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+  starback: 0
+  prefixengine: 0
+  despairresistance: 0
+month: 5766.0
+ach:
+  winhunter: 2
+  winplayer: 21
+  winultimate: 4
+  playtime: 75859
+  joincount: 49
+  itemused: 705
+  itemfailed: 23
+  missionjoin:
+    normal: 91
+    ep1: 26
+    ep2: 12
+    ep3: 11
+  catch:
+    hunter: 219
+    player: 78
+  zundaslot: 0
+  omikuji: 0
+  slothit: 1
+  money:
+    get: 1227
+    used: 1961
+  recipe: 131
+  thanks: 0
+  jackpot: 0
+  bonusgame:
+    passover: 10

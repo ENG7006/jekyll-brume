@@ -1,0 +1,55 @@
+name: yunyun0131
+rate: 1000.0
+money: 328
+rep: 1163
+ignore_hunter: false
+prefix:
+  default: 1
+  mapper: false
+  developer: false
+  broadcaster: false
+  rate1st: false
+  dailyrate: false
+  dailymoney: false
+  thank2017: false
+  omikuji2018: false
+skill:
+  bonusitem: 0
+  darkeye: 0
+  faileditem: 5
+  hpdownheal: 0
+  falleffect: 0
+  firststar: 0
+  starback: 0
+  effectitem: 0
+  stopheart: 0
+  tiredprotect: 0
+  rejailct: 0
+  prefixengine: 0
+  despairresistance: 0
+month: 2423.0
+ach:
+  winhunter: 1
+  winplayer: 2
+  winultimate: 0
+  playtime: 24197
+  joincount: 16
+  itemused: 64
+  itemfailed: 6
+  missionjoin:
+    normal: 5
+    ep1: 2
+    ep2: 1
+    ep3: 1
+  catch:
+    hunter: 119
+    player: 44
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 147
+    used: 30
+  recipe: 0
+  thanks: 0
+  jackpot: 0

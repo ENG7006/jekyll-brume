@@ -1,0 +1,42 @@
+name: Naotoroid
+rate: 1000.0
+month: 422.0
+money: 16
+rep: 1568
+ignore_hunter: false
+skill:
+  bonusitem: 0
+  effectitem: 0
+  faileditem: 2
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+ach:
+  winhunter: 1
+  winplayer: 6
+  winultimate: 0
+  playtime: 47144
+  joincount: 37
+  itemused: 289
+  itemfailed: 20
+  missionjoin:
+    normal: 26
+    ep1: 5
+    ep2: 9
+    ep3: 12
+  catch:
+    hunter: 88
+    player: 167
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 324
+    used: 575
+  recipe: 9
+  thanks: 0
+  jackpot: 0

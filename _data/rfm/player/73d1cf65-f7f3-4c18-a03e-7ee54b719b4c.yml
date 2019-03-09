@@ -1,0 +1,56 @@
+name: SYOU_ALLGAME
+rate: 1000.0
+money: -313
+rep: 672
+ignore_hunter: false
+prefix:
+  default: 1
+  mapper: false
+  developer: false
+  broadcaster: false
+  rate1st: false
+  dailyrate: false
+  dailymoney: false
+  thank2017: false
+  omikuji2018: false
+  spthanksdev: false
+skill:
+  bonusitem: 4
+  effectitem: 0
+  faileditem: 2
+  hpdownheal: 0
+  falleffect: 0
+  rejailct: 0
+  firststar: 0
+  tiredprotect: 0
+  darkeye: 0
+  stopheart: 0
+  starback: 0
+  prefixengine: 0
+  despairresistance: 0
+month: 1363.0
+ach:
+  winhunter: 0
+  winplayer: 2
+  winultimate: 0
+  playtime: 16299
+  joincount: 12
+  itemused: 146
+  itemfailed: 5
+  missionjoin:
+    normal: 13
+    ep1: 4
+    ep2: 3
+    ep3: 6
+  catch:
+    hunter: 13
+    player: 65
+  zundaslot: 0
+  omikuji: 0
+  slothit: 0
+  money:
+    get: 82
+    used: 0
+  recipe: 0
+  thanks: 1
+  jackpot: 0
