@@ -37,7 +37,7 @@ permalink: /data/rfm/player
         }
     </script>
 
-<div id="param"></div>
+<div id="param">
 
 {% for org_hash in site.data.rfm.player %}
 {% assign org = org_hash[1] %}
@@ -45,5 +45,6 @@ permalink: /data/rfm/player
     <img src="https://cravatar.eu/helmhead/{{ org.name }}.png"><br>
       {{ org.money }}万円 /  {{ org.rep }} rep 
   <br><hr>
-
+        
+</div>
 {% endfor %}
