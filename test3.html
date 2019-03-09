@@ -37,6 +37,8 @@ permalink: /data/rfm/player
         }
     </script>
 
+<div id="param"></div>
+
 {% for org_hash in site.data.rfm.player %}
 {% assign org = org_hash[1] %}
   <a href="https://web.njj12.net/data/rfm/player/{{org.name}}"><h3 id="{{ org.name }}">{{ org.name }}</h3></a>
