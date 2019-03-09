@@ -3,15 +3,15 @@ layout: test
 permalink: /test2
 ---
 
-###test    
+<h3>RFM Player Data</h3><br>
 
-<ul>
+
 {% for org_hash in site.data.rfm.player %}
 {% assign org = org_hash[1] %}
-  <li>
+  
     <img src="https://cravatar.eu/helmhead/{{ org.name }}.png"><br>
       {{ org.name }} / {{ org.money }}万円 /  {{ org.rep }} rep 
-  </li>
+  <br>
 {% endfor %}
-</ul>
+
 
