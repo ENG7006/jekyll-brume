@@ -3,7 +3,7 @@
   <head>
     {% include head.html %}
   </head>
-  <body bgcolor="#000000">
+  <body>
     <div class="container azul">
       <header class="top row gutters{% if page.path == 'index.html' || '' %} fadeInLeft animated{% endif %}">
         <div class="col span_2 center">
@@ -23,14 +23,14 @@
       <br>    
       </footer>
     </div>
-<meta charset="UTF-8">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-$(function(){
-  $.getJSON('{{site.baseurl}}/data/debug/sample.json' , function(data) {
-    console.log(data);
-  });
-});
-</script>
+
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/public/js/jquery.fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("article").fitVids();
+      });
+    </script>
   </body>
 </html>
