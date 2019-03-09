@@ -13,7 +13,7 @@ permalink: /test2
 </script>
 <script>
 $(function(){
-  $.getJSON('{{site.baseurl}}/data/debug/sample.json' , function(data) {
+  $.getJSON("https://web.njj12.net/data/debug/sample.json" , function(data) {
     $('body').append($('#list_tpl').render(data));
   });
 });
