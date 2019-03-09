@@ -9,10 +9,22 @@ permalink: /test2
 {% for org_hash in site.data.rfm.player %}
 {% assign org = org_hash[1] %}
  
- 
- <a href="https://web.njj12.net/data/rfm/player?q={{org.uuid}}">
-  　<img src="https://cravatar.eu/helmhead/{{ org.name }}.png" title="{{org.name}}">
-</a>
+<!-- ここからモーダルウィンドウ -->
+<div id="modal-content">
+	<!-- モーダルウィンドウのコンテンツ開始 -->
+	<p>{{ org.name }</p>
+	<p>{{ org.money }</p>
+ <p>{{ org.rep }</p>
+	<p><a id="modal-close" class="button-link">閉じる</a></p>
+	<!-- モーダルウィンドウのコンテンツ終了 -->
+</div>
+
+<p><a id="modal-open" class="button-link"><img src="https://cravatar.eu/helmhead/{{ org.name }}.png" title="{{org.name}}"></a></p>
+<!-- ここまでモーダルウィンドウ -->
+
+
+
+
 
 {% endfor %}
 
