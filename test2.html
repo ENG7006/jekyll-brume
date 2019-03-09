@@ -10,7 +10,7 @@ permalink: /rfm/players
 {% assign org = org_hash[1] %}
  
 <!-- ここからモーダルウィンドウ -->
-<div id="modal-content-01" class="modal-content">
+<div id="{{ org.name }}" class="modal-content">
 	<!-- モーダルウィンドウのコンテンツ開始 -->
 	<p><b>{{ org.name }}</b></p>
 	<p>獲得賞金: {{ org.money }}万円</p>
@@ -19,7 +19,7 @@ permalink: /rfm/players
 	<!-- モーダルウィンドウのコンテンツ終了 -->
 </div>
 
-<a class="modal-syncer button-link" data-target="modal-content-01">
+<a class="modal-syncer button-link" data-target="{{ org.name }}">
 <img src="https://cravatar.eu/helmhead/{{ org.name }}.png" title="{{org.name}}"></a>
 <!-- ここまでモーダルウィンドウ -->
 
