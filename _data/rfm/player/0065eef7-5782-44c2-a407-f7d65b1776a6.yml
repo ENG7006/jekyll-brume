@@ -1,7 +1,7 @@
 name: e233kei_JH
 rate: 1000.0
-money: 593
-rep: 931
+money: 597
+rep: 1030
 ignore_hunter: false
 prefix:
   default: 2
@@ -30,26 +30,26 @@ skill:
 month: 1098.0
 ach:
   winhunter: 0
-  winplayer: 5
+  winplayer: 6
   winultimate: 0
-  playtime: 16297
-  joincount: 17
-  itemused: 101
-  itemfailed: 5
+  playtime: 19952
+  joincount: 21
+  itemused: 127
+  itemfailed: 8
   missionjoin:
     normal: 10
     ep1: 1
     ep2: 1
     ep3: 6
   catch:
-    hunter: 13
-    player: 61
+    hunter: 31
+    player: 70
   zundaslot: 0
   omikuji: 0
   slothit: 0
   money:
-    get: 221
-    used: 21
+    get: 285
+    used: 71
   recipe: 0
   thanks: 0
   jackpot: 0

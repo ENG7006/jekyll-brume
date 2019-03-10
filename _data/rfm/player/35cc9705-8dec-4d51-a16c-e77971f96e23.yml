@@ -1,7 +1,7 @@
 name: suzukizoku
 rate: 1000.0
-money: 19
-rep: 1504
+money: 0
+rep: 1791
 ignore_hunter: false
 prefix:
   default: 1
@@ -28,26 +28,31 @@ skill:
 month: 1424.0
 ach:
   winhunter: 1
-  winplayer: 9
+  winplayer: 13
   winultimate: 0
-  playtime: 45220
-  joincount: 32
-  itemused: 215
-  itemfailed: 15
+  playtime: 56955
+  joincount: 42
+  itemused: 287
+  itemfailed: 18
   missionjoin:
-    normal: 14
-    ep1: 2
-    ep2: 4
-    ep3: 9
+    normal: 19
+    ep1: 5
+    ep2: 6
+    ep3: 14
   catch:
-    hunter: 158
-    player: 98
+    hunter: 179
+    player: 141
   zundaslot: 0
   omikuji: 0
   slothit: 1
   money:
-    get: 507
-    used: 547
+    get: 862
+    used: 885
   recipe: 2
   thanks: 0
   jackpot: 0
+  bonusgame:
+    passover: 14
+uuid: 35cc9705-8dec-4d51-a16c-e77971f96e23
+login: 2019/03/09/22:40:24
+logout: 2019/03/10/00:38:36

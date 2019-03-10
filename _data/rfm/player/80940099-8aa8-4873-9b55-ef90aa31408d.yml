@@ -1,8 +1,8 @@
 name: reokunchan
 rate: 1000.0
 month: 10.0
-money: 330
-rep: 1190
+money: 195
+rep: 1294
 ignore_hunter: false
 skill:
   bonusitem: 4
@@ -19,24 +19,24 @@ ach:
   winhunter: 0
   winplayer: 4
   winultimate: 0
-  playtime: 25535
-  joincount: 20
-  itemused: 276
-  itemfailed: 18
+  playtime: 29373
+  joincount: 23
+  itemused: 292
+  itemfailed: 20
   missionjoin:
-    normal: 16
-    ep1: 5
+    normal: 18
+    ep1: 6
     ep2: 5
-    ep3: 2
+    ep3: 5
   catch:
-    hunter: 14
-    player: 89
+    hunter: 36
+    player: 98
   zundaslot: 0
   omikuji: 0
   slothit: 0
   money:
-    get: 167
-    used: 174
+    get: 212
+    used: 344
   recipe: 12
   thanks: 0
   jackpot: 0

@@ -1,7 +1,7 @@
 name: inazuma0415
 rate: 1000.0
-money: 672
-rep: 3207
+money: 454
+rep: 3642
 ignore_hunter: false
 prefix:
   default: 1
@@ -29,29 +29,32 @@ skill:
   despairresistance: 0
 month: 5766.0
 ach:
-  winhunter: 2
-  winplayer: 21
+  winhunter: 3
+  winplayer: 27
   winultimate: 4
-  playtime: 75859
-  joincount: 49
-  itemused: 705
-  itemfailed: 23
+  playtime: 93023
+  joincount: 61
+  itemused: 843
+  itemfailed: 31
   missionjoin:
-    normal: 91
-    ep1: 26
-    ep2: 12
-    ep3: 11
+    normal: 110
+    ep1: 37
+    ep2: 14
+    ep3: 19
   catch:
-    hunter: 219
-    player: 78
+    hunter: 241
+    player: 103
   zundaslot: 0
-  omikuji: 0
+  omikuji: 1
   slothit: 1
   money:
-    get: 1227
-    used: 1961
+    get: 1861
+    used: 2771
   recipe: 131
   thanks: 0
   jackpot: 0
   bonusgame:
-    passover: 10
+    passover: 30
+uuid: 495d648c-d580-4251-9317-543274595c05
+login: 2019/03/09/22:29:30
+logout: 2019/03/10/01:39:11

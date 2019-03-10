@@ -1,7 +1,7 @@
 name: Takashing_1185
 rate: 1000.0
-money: 427
-rep: 2931
+money: 179
+rep: 3404
 ignore_hunter: false
 prefix:
   default: 2
@@ -30,27 +30,32 @@ skill:
 month: 6711.0
 birth: 0
 ach:
-  winhunter: 1
-  winplayer: 17
+  winhunter: 2
+  winplayer: 23
   winultimate: 0
-  playtime: 71848
-  joincount: 49
-  itemused: 680
-  itemfailed: 30
+  playtime: 87868
+  joincount: 61
+  itemused: 825
+  itemfailed: 39
   missionjoin:
-    normal: 122
-    ep1: 23
-    ep2: 16
-    ep3: 20
+    normal: 157
+    ep1: 30
+    ep2: 18
+    ep3: 30
   catch:
-    hunter: 229
-    player: 131
+    hunter: 287
+    player: 169
   zundaslot: 0
   omikuji: 0
   slothit: 2
   money:
-    get: 824
-    used: 2112
+    get: 1596
+    used: 3087
   recipe: 29
   thanks: 0
   jackpot: 1
+  bonusgame:
+    passover: 6
+uuid: 1ea382a9-7ba3-4ab6-85ee-5df5f7c6af18
+login: 2019/03/09/22:35:57
+logout: 2019/03/10/01:39:17

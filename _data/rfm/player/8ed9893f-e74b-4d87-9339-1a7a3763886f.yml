@@ -1,7 +1,7 @@
 name: riku0745
 rate: 1000.0
-money: 330
-rep: 2770
+money: 213
+rep: 3204.0
 ignore_hunter: false
 prefix:
   default: 12
@@ -30,26 +30,30 @@ month: 5327.0
 birth: 0
 ach:
   winhunter: 3
-  winplayer: 14
+  winplayer: 19
   winultimate: 0
-  playtime: 55465
-  joincount: 53
-  itemused: 1089
-  itemfailed: 31
+  playtime: 65867
+  joincount: 76
+  itemused: 1154
+  itemfailed: 34
   missionjoin:
-    normal: 82
-    ep1: 19
-    ep2: 6
-    ep3: 24
+    normal: 112
+    ep1: 22
+    ep2: 8
+    ep3: 26
   catch:
-    hunter: 237
-    player: 136
+    hunter: 268
+    player: 161
   zundaslot: 0
   omikuji: 0
   slothit: 1
   money:
-    get: 832
-    used: 1372
+    get: 1184
+    used: 1822
   recipe: 99
   thanks: 1
   jackpot: 0
+  bonusgame:
+    passover: 3
+uuid: 8ed9893f-e74b-4d87-9339-1a7a3763886f
+login: 2019/03/10/02:52:00

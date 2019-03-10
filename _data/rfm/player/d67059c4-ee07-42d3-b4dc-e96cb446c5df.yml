@@ -1,7 +1,7 @@
 name: njj12
 rate: 1000.0
-money: 117300
-rep: 780
+money: 1169
+rep: 630
 ignore_hunter: false
 prefix:
   default: 11
@@ -22,10 +22,10 @@ skill:
 month: 35.0
 ach:
   winhunter: 0
-  winplayer: 5
+  winplayer: 0
   winultimate: 0
-  playtime: 114
-  joincount: 17
+  playtime: 35
+  joincount: 12
   itemused: 0
   itemfailed: 0
   missionjoin:
@@ -40,9 +40,8 @@ ach:
   omikuji: 0
   slothit: 0
   money:
-    get: 105
-    used: 102
+    get: 0
+    used: 1
   recipe: 0
   thanks: 0
   jackpot: 0
-uuid: d67059c4-ee07-42d3-b4dc-e96cb446c5df

@@ -1,7 +1,7 @@
 name: Yussan
 rate: 1000.0
-money: 781
-rep: 2161
+money: 493
+rep: 2881
 ignore_hunter: false
 prefix:
   default: 4
@@ -34,7 +34,7 @@ ach:
   winplayer: 0
   winultimate: 0
   playtime: 8805
-  joincount: 52
+  joincount: 70
   itemused: 26
   itemfailed: 2
   missionjoin:
@@ -49,8 +49,11 @@ ach:
   omikuji: 0
   slothit: 0
   money:
-    get: 304
-    used: 593
+    get: 484
+    used: 1061
   recipe: 0
   thanks: 1
   jackpot: 0
+uuid: 7f0bb570-46f5-42d2-a535-4f2df6fb9fc7
+login: 2019/03/10/02:52:19
+logout: 2019/03/10/02:49:02

@@ -1,7 +1,7 @@
 name: yunyun0131
 rate: 1000.0
-money: 328
-rep: 1163
+money: 435
+rep: 1457
 ignore_hunter: false
 prefix:
   default: 1
@@ -29,27 +29,30 @@ skill:
   despairresistance: 0
 month: 2423.0
 ach:
-  winhunter: 1
+  winhunter: 2
   winplayer: 2
   winultimate: 0
-  playtime: 24197
-  joincount: 16
-  itemused: 64
-  itemfailed: 6
+  playtime: 35239
+  joincount: 25
+  itemused: 101
+  itemfailed: 7
   missionjoin:
-    normal: 5
-    ep1: 2
-    ep2: 1
+    normal: 10
+    ep1: 3
+    ep2: 3
     ep3: 1
   catch:
-    hunter: 119
-    player: 44
+    hunter: 183
+    player: 66
   zundaslot: 0
   omikuji: 0
   slothit: 0
   money:
-    get: 147
-    used: 30
+    get: 286
+    used: 50
   recipe: 0
   thanks: 0
   jackpot: 0
+uuid: cdcb30e1-0c7a-4feb-944b-665dc550e1bf
+login: 2019/03/09/23:52:38
+logout: 2019/03/10/01:39:10
