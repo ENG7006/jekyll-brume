@@ -7,11 +7,11 @@ categories: rfm_legacy
 ---
 <p class="alert alert-warning">この仕様は現行Pluginでは使用されていません</p>
 
-[新perfectwinはこちら](https://web.njj12.net/rfm/perfectwin2)
+[新perfectwinはこちら]({{site.baseurl}}t/rfm/perfectwin2)
 
 PerfectWinは逃走中のゲームに於いて完全勝利したプレイヤーに送られる<br>
 特別報酬です。
-<img src="http://web.njj12.net/public/images/rfm/perfectwin.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/perfectwin.png"><br>
 
 
 ---------------------------------------
