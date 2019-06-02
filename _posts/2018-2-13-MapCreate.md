@@ -15,20 +15,20 @@ categories:
 ## 作成の前に  
 
  + コンセプトは何ですか？  
-<img src="http://web.njj12.net/public/images/rfm/maps/konseputo.png"><br>  
+<img src="{{site.baseurl}}/public/images/rfm/maps/konseputo.png"><br>  
 適当にマップを作成するのではなく、大まかなイメージを持ち作成しましょう。<br>
 
 ----------------------------------------------------
 ## 立入禁止区域  
 
  + 屋根の上
-<img src="http://web.njj12.net/public/images/rfm/maps/yane1.png"><br>  
+<img src="{{site.baseurl}}/public/images/rfm/maps/yane1.png"><br>  
 
  + 木の上
-<img src="http://web.njj12.net/public/images/rfm/maps/yane2.png"><br>  
+<img src="{{site.baseurl}}/public/images/rfm/maps/yane2.png"><br>  
 
  + 水やマグマの中
-<img src="http://web.njj12.net/public/images/rfm/maps/mizu.png"><br>  
+<img src="{{site.baseurl}}/public/images/rfm/maps/mizu.png"><br>  
 
 これらの場所には立ち入ることができないように建築を行ってください。<br>
 ゲーム性が失われる原因になりかねません<br>
@@ -37,18 +37,19 @@ categories:
 ## 注意
 
  + 各種フェンス
-<img src="http://web.njj12.net/public/images/rfm/maps/fence1.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/maps/fence1.png"><br>
 フェンスに乗ることができないように建築を行ってください。<br>
 
-<img src="http://web.njj12.net/public/images/rfm/maps/fence2.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/maps/fence2.png"><br>
 このように1マスに満たないブロックの下にもフェンスは配置しないでください<br>
-
-----------------------------------------------------
-## 注意2
-
+  
+ + 隠し部屋  
+ マップ製作者しか分からない場所や、普通にプレイしていて分からない場所の配置は認められません  
+ 
+ + 移動方法  
 上層階の移動などに極力ハシゴを使用しないでください。
-<img src="http://web.njj12.net/public/images/rfm/maps/hasigo.png"><br>
-階段を使用するか[リフト](http://web.njj12.net/rfm/update/468#lift)を使用するなどの対策を行ってください。<br>
+<img src="{{site.baseurl}}/public/images/rfm/maps/hasigo.png"><br>
+階段を使用するか[リフト]({{site.baseurl}}/rfm/update/468#lift)を使用するなどの対策を行ってください。<br>
 ハンターがハシゴで移動中に卵で止められた場合や、確保をした場合に<br>
 ハンターの位置がずれてしまうためです。<br>
 
@@ -56,10 +57,10 @@ categories:
 ## 抜け道/隠れ場所
 
 細かい抜け道、路地のようなものがあるとゲームが面白くなります。<br>
-<img src="http://web.njj12.net/public/images/rfm/maps/roji.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/maps/roji.png"><br>
 
 このようにちょこっと身を隠せる場所もおもしろいです。
-<img src="http://web.njj12.net/public/images/rfm/maps/kakure1.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/maps/kakure1.png"><br>
 
 しかし隠れ場所が多すぎると確保率が下がってしまう為、配置し過ぎには要注意です。<br>
 
@@ -68,7 +69,7 @@ categories:
 
 回路やコマンドブロック、アーマースタンドなどは最小限に抑えましょう。<br>
 過度な設置/使用はサーバーへの負荷に繋がる場合があります。<br>
-<img src="http://web.njj12.net/public/images/rfm/maps/fuka.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/maps/fuka.png"><br>
 
 
 ----------------------------------------------------
@@ -77,7 +78,7 @@ categories:
 マップは適度な広さを意識してください。<br>
 縦または横にある程度の広さがあると望ましいですが、<br>
 その限りではありません。いいかんじにしましょう<br>
-<img src="http://web.njj12.net/public/images/rfm/maps/hirosa.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/maps/hirosa.png"><br>
 
 
 
@@ -86,12 +87,12 @@ categories:
 
 マップ内部にある必要はありません。<br>
 このように完全に出入りができない地点が2箇所あると牢獄/生存地点を簡単に設定できます。<br>
-<img src="http://web.njj12.net/public/images/rfm/maps/jails.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/maps/jails.png"><br>
 
 ----------------------------------------------------
 ## 関連リンク
 
-[map.xml](http://web.njj12.net/rfm/xml)
+[map.xml]({{site.baseurl}}/rfm/xml)
 
 
 
