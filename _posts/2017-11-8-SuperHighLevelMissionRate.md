@@ -24,4 +24,4 @@ categories: rfm_legacy
 21が全逃走者/生存者に配布されます。
 ```
 <br><br>
-[ミッションでの獲得レートはこちら](http://web.njj12.net/rfm/rate/mission)<br/>
+[ミッションでの獲得レートはこちら]({{site.baseurl}}/rfm/rate/mission)<br/>
