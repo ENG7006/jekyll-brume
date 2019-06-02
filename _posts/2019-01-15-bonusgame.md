@@ -6,7 +6,7 @@ permalink: /rfm/bonusgame
 ---
 
 
-<img src="https://web.njj12.net/public/images/rfm/bonus_game.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/bonus_game.png"><br>
 通常ゲーム終了後に確率でボーナスゲームが発生するようになりました<br>
 
 ---------------------------------------
