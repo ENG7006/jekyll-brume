@@ -18,7 +18,7 @@
     easing: null,
     slideMargin: 0,
     startSlide: 0,
-    randomStart: false,
+    randomStart: true,
     captions: false,
     ticker: false,
     tickerHover: false,
@@ -66,7 +66,7 @@
     autoControlsSelector: null,
 
     // AUTO
-    auto: true,
+    auto: false,
     pause: 7000,
     autoStart: true,
     autoDirection: 'next',
