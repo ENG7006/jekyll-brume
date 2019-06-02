@@ -6,8 +6,7 @@ layout: default
   {{ site.description }}
 </p>
   
-{% for post in site.categories.update %}
-{% for post in site.posts limit:3 %}
+{% for post in site.categories.update limit:3 %}
     <li>
         <a href="{{ post.url }}">
            {{ post.title }}
