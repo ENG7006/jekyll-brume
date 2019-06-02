@@ -6,7 +6,7 @@ layout: default
   {{ site.description }}
 </p>
   
-{% for post in site.related_posts limit: %}
+{% for post in site.related_posts limit:1 %}
 {% endfor %}
 
 <h1 class="page-heading">{{ site.posts | size }} Posts</h1>
