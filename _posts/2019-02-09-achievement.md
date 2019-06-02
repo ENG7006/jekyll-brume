@@ -9,7 +9,7 @@ categories: rfm
   
     
 逃走中内で行ったアクションにより実績が記録されるようになりました。  
-<img src="https://web.njj12.net/public/images/rfm/Achievement.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/Achievement.png"><br>
 
 
 ---------------------------------------
@@ -24,7 +24,7 @@ GUI内には最初、黒曜石のオブジェクトが設置されており、�
 剣は木->石->鉄->金->ダイヤの順でグレートアップされます。 
 ※グレードアップに必要なポイントはゲーム状況などを鑑み変更する場合があります  
 
-<img src="https://web.njj12.net/public/images/rfm/ach_gui.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/ach_gui.png"><br>
 
 
 ゲームに関連する実績の場合はゲーム終了後にまとめて付与が行われます。    
@@ -40,5 +40,5 @@ GUI内には最初、黒曜石のオブジェクトが設置されており、�
 実績解放数により称号が付与されます。 
 この称号は通常の称号とは異なり名前の前ではなく後ろに表示されます。  
 また自動設定となり通常の称号と同時に表示されます。  
-<img src="https://web.njj12.net/public/images/rfm/ach_pre.png"><br>
+<img src="{{site.baseurl}}/public/images/rfm/ach_pre.png"><br>
 
