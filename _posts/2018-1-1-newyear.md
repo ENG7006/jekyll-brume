@@ -13,21 +13,21 @@ categories: rfm
 **期間:2018/1/1 - 2018/1/31**<br>
 以下にキャンペーンの概要を記します。<br>
 
-<a><img src="http://web.njj12.net/public/images/20180101.png"></a><br>
+<a><img src="{{site.baseurl}}/public/images/20180101.png"></a><br>
 
 ------------------------------------------------------------------
 <h2 id="omi1">おみくじ</h2>
 コマンド　**/omikuji**　を使うことでおみくじを行うことができます。<br>
-<a><img src="http://web.njj12.net/public/images/omikuji.png"></a><br>
+<a><img src="{{site.baseurl}}/public/images/omikuji.png"></a><br>
 おみくじは1ゲーム1回のみ行うことが可能です。
 
 ------------------------------------------------------------------
 <h2 id="omi2">おみくじ大抽選2018</h2>
 上記のおみくじコマンド使用時それと同時に抽選が行われます。<br>
-<a><img src="http://web.njj12.net/public/images/hazure.png"></a><br>
+<a><img src="{{site.baseurl}}/public/images/hazure.png"></a><br>
 大抽選にて当選した場合、当選した証拠のSSをDeveloper[Twitterアカウント](https://twitter.com/nksm4869)まで送ってください。<br>
 当選者には限定称号を付与します。<br>
-<a><img src="http://web.njj12.net/public/images/preOmi.png"></a><br>
+<a><img src="{{site.baseurl}}/public/images/preOmi.png"></a><br>
 ※この称号はキャンペーン終了後も獲得できるチャンスが設けられる予定です。  
 
 ------------------------------------------------------------------
