@@ -59,7 +59,7 @@ categories: rfm_legacy
 |7| Horrific Fate | 150 |
 |8| The Lost Weapon | 150 |
 
-[分散レートについてはこちら](http://web.njj12.net/rfm/rate/shl)<br/>
+[分散レートについてはこちら]({{site.baseurl}}/rfm/rate/shl)<br/>
 
 -------------------------------------  
 # 超高難易度ミッション2#EP.JOZ   
