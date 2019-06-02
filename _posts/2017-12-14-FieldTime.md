@@ -33,6 +33,6 @@ categories: rfm
 
 
 ## スコアボード  
-<img src="http://web.njj12.net/public/images/scoreB.png"><br>
+<img src="{{site.baseurl}}/public/images/scoreB.png"><br>
 フィールドはその名称、時間帯は現在の種類が表示されます。
  
