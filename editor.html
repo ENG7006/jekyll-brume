@@ -43,6 +43,17 @@ function getValue() {
     document.getElementById( "sampleOutputAuthor" ).innerHTML = $formObject.formAuthor.value;
 }
     
+  function copyToClipboard() {
+        // コピー対象をJavaScript上で変数として定義する
+        var copyTarget = document.getElementById("sampleInputedList");
+        // コピー対象のテキストを選択する
+        copyTarget.select();
+        // 選択しているテキストをクリップボードにコピーする
+        document.execCommand("Copy");
+        // コピーをお知らせする
+        alert("コピーできました！ : " + copyTarget.value);
+   }
+    
 function buildData() {
    var name = document.getElementById('mapName').value;
    var version = document.getElementById('mapVersion').value;
@@ -102,6 +113,7 @@ function buildData() {
 <form>
 <div id="sampleOutput">
 <textarea cols="40" rows="30" id="sampleInputedList" readonly></textarea>
+<button onclick="copyToClipboard()">コピーする</button>
 </div>
 </form>
 
