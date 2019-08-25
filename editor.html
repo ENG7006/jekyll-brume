@@ -40,6 +40,13 @@ function buildData() {
    var opgtp = document.getElementById('mapOPGTP').value;
     
    var locplayer = document.getElementById('mapLocPlayer').value;
+   var lochunter = document.getElementById('mapLocHunter').value;
+   var locclear = document.getElementById('mapLocClear').value;
+   var locjail = document.getElementById('mapLocJail').value;
+   var locrejail1 = document.getElementById('mapLocRejail1').value;
+   var locrejail2 = document.getElementById('mapLocRejail2').value;
+   var locopg = document.getElementById('mapLocOpg').value;
+   var locdoor = document.getElementById('mapLocDoor').value;
     
    var xml = "";
     xml += '<map>\n';
@@ -70,6 +77,13 @@ function buildData() {
     xml += '   <opg_tp>' + opgtp + '</opgtp>\n';
     xml += '   <location>\n';
     xml += '      <player>' + locplayer + '</player>\n';
+    xml += '      <hunter>' + locplayer + '</hunter>\n';
+    xml += '      <clear>' + locplayer + '</clear>\n';
+    xml += '      <jail>' + locplayer + '</jail>\n';
+    xml += '      <rejail1>' + locplayer + '</rejail1>\n';
+    xml += '      <rejail2>' + locplayer + '</rejail2>\n';
+    xml += '      <door>' + locplayer + '</door>\n';
+    xml += '      <opg>' + locplayer + '</opg>\n';
     xml += '   </location>\n';
     xml += '</map>\n';
     
@@ -211,12 +225,49 @@ function buildData() {
          <div class="card">
            <div class="card-header">
               <h3>位置情報設定</h3>
+               <h4>X,Y,Z,Yaw,Pitchを記述します。配布プラグインでの取得を推奨します。</h4>
             </div>
             <div class="card-body">
           <form>
               
             <div class="form-group">
-               Player<input type="text" class="form-control" id="mapLocPlayer" value=""> 
+               Player<input type="text" class="form-control" id="mapLocPlayer" value="0,0,0,0,0"> 
+               <small class="form-text text-muted">プレイヤーの初期スポーン地点</small>
+            </div>
+              
+            <div class="form-group">
+               Hunter<input type="text" class="form-control" id="mapLocHunter" value="0,0,0,0,0"> 
+               <small class="form-text text-muted">ハンターの初期スポーン地点</small>
+            </div>
+               
+            <div class="form-group">
+               Clear<input type="text" class="form-control" id="mapLocClear" value="0,0,0,0,0"> 
+               <small class="form-text text-muted">ゲームクリア時にTPされる地点</small>
+            </div>
+              
+            <div class="form-group">
+               Jail<input type="text" class="form-control" id="mapLocJail" value="0,0,0,0,0"> 
+               <small class="form-text text-muted">牢獄</small>
+            </div>
+              
+            <div class="form-group">
+               Rejail1<input type="text" class="form-control" id="mapRejail1" value="0,0,0,0,0"> 
+               <small class="form-text text-muted">復活時に飛ばされる場所1</small>
+            </div>
+              
+            <div class="form-group">
+               Rejail2<input type="text" class="form-control" id="mapRejail2" value="0,0,0,0,0"> 
+               <small class="form-text text-muted">復活時に飛ばされる場所2</small>
+            </div>
+              
+            <div class="form-group">
+               OPG<input type="text" class="form-control" id="mapOpg" value="0,0,0,0,0"> 
+               <small class="form-text text-muted">オープニングゲーム開始時に飛ばされる場所</small>
+            </div>
+              
+            <div class="form-group">
+               Door<input type="text" class="form-control" id="mapDoor" value="0,0,0,0,0"> 
+               <small class="form-text text-muted">ゲーム開始時に爆発する扉の起点となる場所</small>
             </div>
                 
           </form>
