@@ -2,18 +2,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
-
-function dl() {
-   var text = document.getElementById("sampleInputedList").value; 
-        var blob = new Blob([text]);
-
-        if (window.navigator.msSaveBlob) { 
-            window.navigator.msSaveBlob(blob, ‘BlobFile.txt’); 
-        } else { 
-            var url = window.URL.createObjectURL(blob); 
-            document.getElementById(‘download’).href = url; 
-        } 
-    } 
     
   function copyToClipboard() {
         // コピー対象をJavaScript上で変数として定義する
@@ -217,9 +205,7 @@ function buildData() {
           <form>
             <div id="sampleOutput"> 
                <textarea  class="form-control" rows="20" id="sampleInputedList" readonly></textarea> 
-                <button type="button" class="btn btn-success" onclick="copyToClipboard()">コピーする</button> 
-                <button id="download" download="map.xml" type="button" class="btn btn-warning" onclick="dl()">ダウンロード</button> 
-                <a id="download" href="#" download="map.xml" onclick="dl()">ダウンロード</a>
+                <button type="button" class="btn btn-success btn-lg btn-block" onclick="copyToClipboard()">コピーする</button> 
              </div>
           </form>
         </div>
