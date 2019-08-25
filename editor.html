@@ -66,6 +66,10 @@ function buildData() {
    var startbone = document.getElementById('mapStartBone').value;
    var startegg = document.getElementById('mapStartEgg').value;
     
+   var rejailfeather = document.getElementById('mapRejailFeather').value;
+   var rejailbone = document.getElementById('mapRejailBone').value;
+   var rejailegg = document.getElementById('mapRejailEgg').value;
+    
    var autoend = document.getElementById('mapAutoEnd').value;
    var autorejail = document.getElementById('mapAutoRejail').value;
     
@@ -82,6 +86,11 @@ function buildData() {
     xml += '    <bone>' + startbone + '</bone>\n';
     xml += '    <egg>' + startegg + '</egg>\n';
     xml += '  </start>\n';
+    xml += '  <rejail>\n';
+    xml += '    <feather>' + rejailfeather + '</feather>\n';
+    xml += '    <bone>' + rejailbone + '</bone>\n';
+    xml += '    <egg>' + rejailegg + '</egg>\n';
+    xml += '  </rejail>\n';
     xml += '  <auto_end>' + autoend + '</auto_end>\n';
     xml += '  <auto_rejail>' + autorejail + '</auto_rejail>\n';
     xml += '</map>\n';
@@ -141,10 +150,17 @@ function buildData() {
             <div class="card-body">
               <form id="sampleForm">
                   <div class="form-group">
+                    <label>ゲーム開始時</label>
                       羽: <input type="number" min="0" id="mapStartFeather" value="10" class="form-control"> 
                       骨: <input type="number" min="0" id="mapStartBone" value="10" class="form-control"> 
                       卵: <input type="number" min="0" id="mapStartEgg" value="10" class="form-control"> <br/> 
-                      </div>
+                   </div>
+                  <div class="form-group">
+                    <label>復活時</label>
+                      羽: <input type="number" min="0" id="mapRejailFeather" value="10" class="form-control"> 
+                      骨: <input type="number" min="0" id="mapRejailBone" value="10" class="form-control"> 
+                      卵: <input type="number" min="0" id="mapRejailEgg" value="10" class="form-control"> <br/> 
+                   </div>
                 </form>
             </div>
           </div>
