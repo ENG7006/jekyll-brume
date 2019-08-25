@@ -75,6 +75,7 @@ function buildData() {
    var autorejail = document.getElementById('mapAutoRejail').value;
    var watch = document.getElementById('mapWatch').value;
    var field = document.getElementById('mapField').value;
+   var opgtp = document.getElementById('mapOPGTP').value;
     
     var xml = "";
     xml += '<map>\n';
@@ -99,6 +100,7 @@ function buildData() {
     xml += '  <auto_rejail>' + autorejail + '</auto_rejail>\n';
     xml += '  <watch>' + watch + '</watch>\n';
     xml += '  <climate>' + field + '</climate>\n';
+    xml += '  <opg_tp>' + opgtp + '</opgtp>\n';
     xml += '</map>\n';
     
     document.getElementById('sampleInputedList').value = xml;
@@ -169,8 +171,17 @@ function buildData() {
                 
                  <div class="form-group">
                       フィールド/Field
-                       <input type="number" class="form-control" min="0" max="2" id="mapField" value="0">
-                     <small id="mapStartItem" class="form-text text-muted">0:平穏 1:温暖 2:寒冷 指定以外の数値は強制的に平穏になります</small>
+                      <input type="number" class="form-control" min="0" max="2" id="mapField" value="0">
+                     <small class="form-text text-muted">0:平穏 1:温暖 2:寒冷 指定以外の数値は強制的に平穏になります</small>
+                 </div>
+                
+                <div class="form-group">
+                      OPG-Teleport
+                       <select id="mapOPGTP" class="form-control">
+            　　　　　　　　　　<option selected>false</option>
+            　　　　　　　　　　<option>true</option>
+        　　　　　　　　 </select>
+                    <small class="form-text text-muted">オープニングゲーム終了時に強制的にTPを行うかの設定</small>
                  </div>
                 
                       コメント：<textarea name="formComent">コメント</textarea> <br/> 
@@ -188,14 +199,14 @@ function buildData() {
                     <label>ゲーム開始時</label></br>
                       羽: <input type="number" min="0" max="10" id="mapStartFeather" value="10" class="form-control"> 
                       骨: <input type="number" min="0" max="10" id="mapStartBone" value="10" class="form-control"> 
-                      卵: <input type="number" min="0" max="10" id="mapStartEgg" value="10" class="form-control"> <br/> 
+                      卵: <input type="number" min="0" max="10" id="mapStartEgg" value="10" class="form-control">
                       <small id="mapStartItem" class="form-text text-muted">ゲーム開始時に配布されるアイテムの個数です。ゲームバランスを考えて設定してください。</small>
                    </div>
                   <div class="form-group">
                     <label>復活時</label></br>
                       羽: <input type="number" min="0" max="10" id="mapRejailFeather" value="10" class="form-control"> 
                       骨: <input type="number" min="0" max="10" id="mapRejailBone" value="10" class="form-control"> 
-                      卵: <input type="number" min="0" max="10" id="mapRejailEgg" value="10" class="form-control"> <br/> 
+                      卵: <input type="number" min="0" max="10" id="mapRejailEgg" value="10" class="form-control">
                 <small id="mapRejailItem" class="form-text text-muted">復活時に配布されるアイテムの個数です。開始時よりも多くならないように設定してください。</small>
                    </div>
                 </form>
