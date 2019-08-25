@@ -1,8 +1,3 @@
----
-layout: editor
-title: Xml Editor
-permalink: /editor
----
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -97,9 +92,11 @@ function buildData() {
     document.getElementById('sampleInputedList').value = xml;
 }
     
-   </script>
+</script>
 
-    <img src="https://project-rfm.net/public/images/rfm/title.png" style="width:100%;height:auto;" /><br>
+<body>
+  <div id="wrapper">
+    <div class="container"> <img src="https://project-rfm.net/public/images/rfm/title.png" style="width:100%;height:auto;" /><br>
       <div class="content">
         <div class="card-deck">
           <div class="card">
@@ -318,12 +315,16 @@ function buildData() {
 
 
       </div>
-
-<!--     </div> -->
-<!--   </div> -->
-
+    </div>
+  </div>
 
 
+ <footer>
+     <p align="center">
+          &copy; 2015-2019 project-rfm. All rights reserved. | <a href="{{site.baseurl}}/rfm/rule">利用規約</a> | <a href="{{site.baseurl}}/rfm/credit">credit</a><br>
+           Minecraft は Mojang Synergies AB の登録商標です。本サイトはMojang Synergies ABとは関係ありません。<br>
+       <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{site.baseurl}}">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </p><br><br>    
+  </footer>
 
-<!--  </body> -->
-
+</body>
