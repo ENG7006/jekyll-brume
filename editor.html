@@ -50,6 +50,7 @@ function buildData() {
    var gametime = document.getElementById('mapGameTime').value;
     
    var autoend = document.getElementById('mapAutoEnd').value;
+   var autorejail = document.getElementById('mapAutoRejail').value;
     
     var xml = "";
     xml += '<map>\n';
@@ -59,7 +60,8 @@ function buildData() {
     xml += '    <author>' + author + '</author>\n';
     xml += '  </authors>\n';
     xml += '  <time>' + gametime + '</time>\n';
-    xml += '  <autoend>' + autoend + '</autoend>\n';
+    xml += '  <auto_end>' + autoend + '</auto_end>\n';
+    xml += '  <auto_rejail>' + autorejail + '</auto_rejail>\n';
     xml += '</map>\n';
     
     document.getElementById('sampleInputedList').value = xml;
@@ -84,11 +86,10 @@ function buildData() {
             <option>true</option>
         </select>
     <br />
-    年齢：
-        <select name="formAge">
-            <option selected>10代</option>
-            <option>20代</option>
-            <option>30代</option>
+    自動復活：
+        <select name="formAge" id="mapAutoRejail">
+            <option selected>false</option>
+            <option>true</option>
         </select>
     <br />
     コメント：<textarea name="formComent">コメント</textarea>
