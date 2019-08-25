@@ -38,7 +38,9 @@ function buildData() {
    var field = document.getElementById('mapField').value;
    var opgtp = document.getElementById('mapOPGTP').value;
     
-    var xml = "";
+   var locplayer = document.getElementById('mapLocPlayer').value;
+    
+   var xml = "";
     xml += '<map>\n';
     xml += '   <name>' + name + '</name>\n';
     xml += '   <version>' + version + '</version>\n';
@@ -64,6 +66,9 @@ function buildData() {
     xml += '   <watch>' + watch + '</watch>\n';
     xml += '   <climate>' + field + '</climate>\n';
     xml += '   <opg_tp>' + opgtp + '</opgtp>\n';
+    xml += '   <location>\n';
+    xml += '      <player>' + locplayer + '</player>\n';
+    xml += '   </location>\n';
     xml += '</map>\n';
     
     document.getElementById('sampleInputedList').value = xml;
@@ -191,6 +196,26 @@ function buildData() {
         </div>
       </div>
      </br>
+
+    <div class="content">
+       <div class="card-deck">
+         <div class="card">
+           <div class="card-header">
+              <h3>位置情報設定</h3>
+            </div>
+            <div class="card-body">
+          <form>
+              
+            <div class="form-group">
+               Player<input type="text" class="form-control" id="mapLocPlayer" value=""> 
+            </div>
+                
+          </form>
+        </div>
+       </div>
+      </div>
+    </div>
+
      <form>
          <button type="button" class="btn btn-success btn-lg btn-block" onclick="buildData();">Xmlに変換</button>
       </form>
@@ -210,9 +235,11 @@ function buildData() {
              </div>
           </form>
         </div>
-              </div>
-            </div>
-           </div>
+       </div>
+      </div>
+     </div>
+
+
       </div>
     </div>
   </div>
