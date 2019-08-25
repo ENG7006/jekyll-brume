@@ -47,14 +47,16 @@ function buildData() {
    var name = document.getElementById('mapName').value;
    var version = document.getElementById('mapVersion').value;
    var author = document.getElementById('mapAuthor').value;
+   var gametime = document.getElementById('mapGameTime').value;
     
     var xml = "";
     xml += '<map>\n';
     xml += '  <name>' + name + '</name>\n';
     xml += '  <version>' + version + '</version>\n';
     xml += '  <authors>\n';
-    xml += '   <author>' + author + '</author>\n';
+    xml += '    <author>' + author + '</author>\n';
     xml += '  </authors>\n';
+    xml += '  <time>' + gametime + '</time>\n';
     xml += '</map>\n';
     
     document.getElementById('sampleInputedList').value = xml;
@@ -70,6 +72,8 @@ function buildData() {
     version：<input type="text" name="formVersion" id="mapVersion" value="1.0.0">
     <br />
     Author：<input type="text" name="formAuthor" id="mapAuthor" value="p_rfm">
+    <br/>
+    ゲーム時間: <input id="number" type="number" min="10" id="mapGameTime"  value="25">
     <br />
     地域：
         <select name="formArea">
