@@ -47,9 +47,9 @@ function buildData() {
    var test = document.getElementById('sampleUserInput').value;
     
     var xml = "";
-    xml += '<map>';
-    xml += '<name>' + test + '</name>';
-    xml += '</map>';
+    xml += '<map>\n';
+    xml += '<name>' + test + '</name>\n';
+    xml += '</map>\n';
     
     document.getElementById('sampleInputedList').value = xml;
 }
@@ -86,7 +86,7 @@ function buildData() {
 
 <form>
 <div id="sampleOutput">
-<textarea cols="30" rows="6" id="sampleInputedList" readonly>北海道
+<textarea cols="30" rows="60" id="sampleInputedList" readonly>北海道
 東京都
 大阪府
 </textarea>
