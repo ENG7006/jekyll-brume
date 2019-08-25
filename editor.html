@@ -91,3 +91,18 @@ function getValue() {
     <br />
 &lt;/map&gt;
 </div>
+
+<button id="button3">コピーを実行</button>
+<script>
+  $(function(){
+    $("#button3").on('click',function(){
+      window.getSelection().removeAllRanges();
+      var $copyP = $('#sampleOutput');
+      var copyPNode = $copyP[0].childNodes[0];
+      var range = document.createRange();
+      range.selectNode(copyPNode);
+      window.getSelection().addRange(range);
+      document.execCommand('copy');
+    });
+  });
+</script>
