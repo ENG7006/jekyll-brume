@@ -69,7 +69,8 @@ function buildData() {
    var rejailfeather = document.getElementById('mapRejailFeather').value;
    var rejailbone = document.getElementById('mapRejailBone').value;
    var rejailegg = document.getElementById('mapRejailEgg').value;
-    
+  
+   var rejaillimit = document.getElementById('mapRejailLimit').value;
    var autoend = document.getElementById('mapAutoEnd').value;
    var autorejail = document.getElementById('mapAutoRejail').value;
     
@@ -91,6 +92,7 @@ function buildData() {
     xml += '    <bone>' + rejailbone + '</bone>\n';
     xml += '    <egg>' + rejailegg + '</egg>\n';
     xml += '  </rejail>\n';
+    xml += '  <rejailcount>' + rejaillimit + '</rejailcount>\n';
     xml += '  <auto_end>' + autoend + '</auto_end>\n';
     xml += '  <auto_rejail>' + autorejail + '</auto_rejail>\n';
     xml += '</map>\n';
@@ -130,6 +132,10 @@ function buildData() {
             </div>
             <div class="card-body">
               <form id="sampleForm">
+                 <div class="form-group">
+                    <label>復活可能回数</label></br>
+                     <input type="number" min="1" max="15" id="mapRejailLimit" value="10" class="form-control"> <br/> 
+                </div>
                   <div class="form-group">
                       ゲーム時間: <input type="number" class="form-control" min="10" id="mapGameTime" value="25"> <br/> 
                    </div>
@@ -151,7 +157,7 @@ function buildData() {
                 </form>
             </div>
           </div>
-            
+
         <div class="card">
             <div class="card-header">
               <h3>アイテム設定</h3>
