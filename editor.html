@@ -35,8 +35,8 @@ window.onload = function () {
 }
 function getValue() {
     var $formObject = document.getElementById( "sampleForm" );
-    document.getElementById( "mapname" ).innerHTML = $formObject.formName.value;
-    document.getElementById( "version" ).innerHTML = $formObject.formVersion.value;
+    document.getElementById( "sampleOutputmapname" ).innerHTML = $formObject.formName.value;
+    document.getElementById( "sampleOutputversion" ).innerHTML = $formObject.formVersion.value;
     document.getElementById( "sampleOutputArea" ).innerHTML = $formObject.formArea.value;
     document.getElementById( "sampleOutputAge" ).innerHTML = $formObject.formAge.value;
     document.getElementById( "sampleOutputComent" ).innerHTML = $formObject.formComent.value;
@@ -72,9 +72,9 @@ function getValue() {
 <div id="sampleOutput">
 &lt;map&gt;
     <br/>
-  &lt;name&gt;<span id="mapname"></span>&lt;/name&gt;
+  &lt;name&gt;<span id="sampleOutputmapname"></span>&lt;/name&gt;
     <br/>
-  &lt;version&gt;<span id="version"></span>&lt;/version&gt;
+  &lt;version&gt;<span id="sampleOutputversion"></span>&lt;/version&gt;
     <br/>
     年齢：<span id="sampleOutputAge"></span>
     <br/>
