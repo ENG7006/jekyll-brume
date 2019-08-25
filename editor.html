@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 #sampleForm,
 #sampleOutput {
     width: 500px;
@@ -17,31 +17,32 @@
     margin: 0 0 7px 0;
     vertical-align: text-top;
 }
-</style>
+</style> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <script type="text/javascript">
-window.onload = function () {
-    getValue();
-    var $formObject = document.getElementById( "sampleForm" );
-    for( var $i = 0; $i < $formObject.length; $i++ ) {
-        $formObject.elements[$i].onkeyup = function(){
-            getValue();
-        };
-        $formObject.elements[$i].onchange = function(){
-            getValue();
-        };
-    }
-    document.getElementById( "sampleOutputLength" ).innerHTML = $formObject.length;
-}
-function getValue() {
-    var $formObject = document.getElementById( "sampleForm" );
-    document.getElementById( "sampleOutputName" ).innerHTML = $formObject.formName.value;
-    document.getElementById( "sampleOutputArea" ).innerHTML = $formObject.formArea.value;
-    document.getElementById( "sampleOutputAge" ).innerHTML = $formObject.formAge.value;
-    document.getElementById( "sampleOutputComent" ).innerHTML = $formObject.formComent.value;
-    document.getElementById( "sampleOutputVersion" ).innerHTML = $formObject.formVersion.value;
-    document.getElementById( "sampleOutputAuthor" ).innerHTML = $formObject.formAuthor.value;
-}
+// window.onload = function () {
+//     getValue();
+//     var $formObject = document.getElementById( "sampleForm" );
+//     for( var $i = 0; $i < $formObject.length; $i++ ) {
+//         $formObject.elements[$i].onkeyup = function(){
+//             getValue();
+//         };
+//         $formObject.elements[$i].onchange = function(){
+//             getValue();
+//         };
+//     }
+//     document.getElementById( "sampleOutputLength" ).innerHTML = $formObject.length;
+// }
+// function getValue() {
+//     var $formObject = document.getElementById( "sampleForm" );
+//     document.getElementById( "sampleOutputName" ).innerHTML = $formObject.formName.value;
+//     document.getElementById( "sampleOutputArea" ).innerHTML = $formObject.formArea.value;
+//     document.getElementById( "sampleOutputAge" ).innerHTML = $formObject.formAge.value;
+//     document.getElementById( "sampleOutputComent" ).innerHTML = $formObject.formComent.value;
+//     document.getElementById( "sampleOutputVersion" ).innerHTML = $formObject.formVersion.value;
+//     document.getElementById( "sampleOutputAuthor" ).innerHTML = $formObject.formAuthor.value;
+// }
     
   function copyToClipboard() {
         // コピー対象をJavaScript上で変数として定義する
