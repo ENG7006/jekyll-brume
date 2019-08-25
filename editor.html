@@ -123,7 +123,6 @@ function buildData() {
             　　　　　　　　　　　　　<option>true</option>
         　　　　　　　　　　　　　</select> <br/> 
                       コメント：<textarea name="formComent">コメント</textarea> <br/> 
-                <input type="button" value="出力" onclick="buildData();"> 
                 </form>
             </div>
           </div>
@@ -139,13 +138,16 @@ function buildData() {
                       骨: <input type="number" min="0" id="mapStartBone" value="10"> 
                       卵: <input type="number" min="0" id="mapStartEgg" value="10"> <br/> 
                       </div>
-                <input type="button" value="出力" onclick="buildData();"> 
                 </form>
             </div>
           </div>
             
         </div>
       </div>
+        
+     <form>
+         <input type="button" value="出力" onclick="buildData();"> 
+      </form>
         
       <div class="content">
         <div class="card-deck">
