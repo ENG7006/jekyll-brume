@@ -1,53 +1,11 @@
-<!-- <style>
-#sampleForm,
-#sampleOutput {
-    width: 500px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid gray;
-    border-radius: 10px;
-}
-#sampleForm {
-    background-color: #f0f8ff;
-}
-#sampleOutput {
-    background-color: #00ffff;
-}
-#sampleForm * {
-    margin: 0 0 7px 0;
-    vertical-align: text-top;
-}
-</style> -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
-// window.onload = function () {
-//     getValue();
-//     var $formObject = document.getElementById( "sampleForm" );
-//     for( var $i = 0; $i < $formObject.length; $i++ ) {
-//         $formObject.elements[$i].onkeyup = function(){
-//             getValue();
-//         };
-//         $formObject.elements[$i].onchange = function(){
-//             getValue();
-//         };
-//     }
-//     document.getElementById( "sampleOutputLength" ).innerHTML = $formObject.length;
-// }
-// function getValue() {
-//     var $formObject = document.getElementById( "sampleForm" );
-//     document.getElementById( "sampleOutputName" ).innerHTML = $formObject.formName.value;
-//     document.getElementById( "sampleOutputArea" ).innerHTML = $formObject.formArea.value;
-//     document.getElementById( "sampleOutputAge" ).innerHTML = $formObject.formAge.value;
-//     document.getElementById( "sampleOutputComent" ).innerHTML = $formObject.formComent.value;
-//     document.getElementById( "sampleOutputVersion" ).innerHTML = $formObject.formVersion.value;
-//     document.getElementById( "sampleOutputAuthor" ).innerHTML = $formObject.formAuthor.value;
-// }
-    
+
 function dl() {
    
-        var content = document.getElementById("sampleInputedList").value;
+        var content = document.getElementById("sampleInputedList");
         var blob = new Blob([ content ], { "type" : "text/plain" });
     
         if (window.navigator.msSaveBlob) { 
@@ -263,6 +221,7 @@ function buildData() {
                <textarea  class="form-control" rows="20" id="sampleInputedList" readonly></textarea> 
                 <button type="button" class="btn btn-success" onclick="copyToClipboard()">コピーする</button> 
                 <button id="download" download="map.xml" type="button" class="btn btn-warning" onclick="dl()">ダウンロード</button> 
+                <a id="download" href="#" download="map.xml" onclick="dl()">ダウンロード</a>
              </div>
           </form>
         </div>
