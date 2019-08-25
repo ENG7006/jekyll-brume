@@ -42,12 +42,24 @@ function getValue() {
     document.getElementById( "sampleOutputVersion" ).innerHTML = $formObject.formVersion.value;
     document.getElementById( "sampleOutputAuthor" ).innerHTML = $formObject.formAuthor.value;
 }
+    
+function buildData() {
+   var test = document.getElementById('sampleUserInput').value;
+    
+    var xml = "";
+    xml += '<map>';
+    xml += '<name>' + test + '</name>';
+    xml += '</map>';
+    
+    document.getElementById('sampleInputedList').value = xml;
+}
+    
 </script>
 
 <form id="sampleForm">
     【入力欄】
     <br />
-    名前：<input type="text" name="formName" value="太郎">
+    名前：<input type="text" name="formName" id="sampleUserInput" value="太郎">
     <br />
     地域：
         <select name="formArea">
@@ -69,31 +81,15 @@ function getValue() {
     <br />
     Author：<input type="text" name="formAuthor" value="p_rfm">
     <br />
+    <input type="button" value="上記の入力内容を、以下の末尾に追加" onclick="buildData();">
 </form>
 
 <form>
 <div id="sampleOutput">
-  <textarea name="example2" cols="50" rows="20">
-&lt;map&gt;
-    <br />
-    &lt;name&gt;<span id="sampleOutputName"></span>&lt;/name&gt;
-    <br />
-    &lt;version&gt;<span id="sampleOutputVersion"></span>&lt;/version&gt;
-    <br />
-    &lt;authors&gt;
-    <br />
-    &lt;author&gt;<span id="sampleOutputAuthor"></span>&lt;/author&gt;
-    <br />
-     &lt;/authors&gt;
-    <br />
-    地域：<span id="sampleOutputArea"></span>
-    <br />
-    年齢：<span id="sampleOutputAge"></span>
-    <br />
-    コメント：<span id="sampleOutputComent"></span>
-    <br />
-&lt;/map&gt;
-   </textarea>
+<textarea cols="30" rows="6" id="sampleInputedList" readonly>北海道
+東京都
+大阪府
+</textarea>
 </div>
 </form>
 
