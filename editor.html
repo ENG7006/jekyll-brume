@@ -36,6 +36,7 @@ function buildData() {
    var autorejail = document.getElementById('mapAutoRejail').value;
    var watch = document.getElementById('mapWatch').value;
    var field = document.getElementById('mapField').value;
+   var spblock = document.getElementById('mapSpblock').value;
    var opgtp = document.getElementById('mapOPGTP').value;
     
    var locplayer = document.getElementById('mapLocPlayer').value;
@@ -65,6 +66,7 @@ function buildData() {
     xml += '   <auto_rejail>' + autorejail + '</auto_rejail>\n';
     xml += '   <watch>' + watch + '</watch>\n';
     xml += '   <climate>' + field + '</climate>\n';
+    xml += '   <spblock>' + spblock + '</spblock>\n';
     xml += '   <opg_tp>' + opgtp + '</opgtp>\n';
     xml += '   <location>\n';
     xml += '      <player>' + locplayer + '</player>\n';
@@ -158,7 +160,7 @@ function buildData() {
                 
                 <div class="form-group">
                      特殊ブロック
-                     <input type="number" class="form-control" min="0" max="3" id="mapField" value="0">
+                     <input type="number" class="form-control" min="0" max="3" id="mapSpblock" value="0">
                      <small class="form-text text-muted">特殊ブロックにより付与されるエフェクトを設定</small>
                      <small class="form-text text-muted">0:不運 1:盲目 2:発光 3:加速 指定以外の数値は強制的に不運になります</small>
                 </div>
