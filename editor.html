@@ -151,17 +151,17 @@ function buildData() {
               <form id="sampleForm">
                   <div class="form-group">
                     <label>ゲーム開始時</label></br>
-                      羽: <input type="number" min="0" id="mapStartFeather" value="10" class="form-control"> 
-                      骨: <input type="number" min="0" id="mapStartBone" value="10" class="form-control"> 
-                      卵: <input type="number" min="0" id="mapStartEgg" value="10" class="form-control"> <br/> 
-                      <small id="mapStartItem" class="form-text text-muted">ゲーム開始時に配布されるアイテムの個数です</small>
+                      羽: <input type="number" min="0" max="10" id="mapStartFeather" value="10" class="form-control"> 
+                      骨: <input type="number" min="0" max="10" id="mapStartBone" value="10" class="form-control"> 
+                      卵: <input type="number" min="0" max="10" id="mapStartEgg" value="10" class="form-control"> <br/> 
+                      <small id="mapStartItem" class="form-text text-muted">ゲーム開始時に配布されるアイテムの個数です。ゲームバランスを考えて設定してください。</small>
                    </div>
                   <div class="form-group">
                     <label>復活時</label></br>
-                      羽: <input type="number" min="0" id="mapRejailFeather" value="10" class="form-control"> 
-                      骨: <input type="number" min="0" id="mapRejailBone" value="10" class="form-control"> 
-                      卵: <input type="number" min="0" id="mapRejailEgg" value="10" class="form-control"> <br/> 
-                <small id="mapRejailItem" class="form-text text-muted">復活時に配布されるアイテムの個数です</small>
+                      羽: <input type="number" min="0" max="10" id="mapRejailFeather" value="10" class="form-control"> 
+                      骨: <input type="number" min="0" max="10" id="mapRejailBone" value="10" class="form-control"> 
+                      卵: <input type="number" min="0" max="10" id="mapRejailEgg" value="10" class="form-control"> <br/> 
+                <small id="mapRejailItem" class="form-text text-muted">復活時に配布されるアイテムの個数です。開始時よりも多くならないように設定してください。</small>
                    </div>
                 </form>
             </div>
