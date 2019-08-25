@@ -57,13 +57,6 @@
       link.textContent = '右クリックから名前を付けて保存してください'
      }
    }
-
-$("textarea").change( function() {
-var txtVal = $(this).val();
-txtVal = txtVal.replace(/\r\n/g, "&lt;br /&gt;<br />");
-txtVal = txtVal.replace(/(\n|\r)/g, "&lt;br /&gt;<br />");
-$('#testpre').html('<p>' txtVal '</p>');
-});
     
   function copyToClipboard() {
         // コピー対象をJavaScript上で変数として定義する
