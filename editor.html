@@ -93,6 +93,7 @@ function buildData() {
 
 <img src="https://project-rfm.net/public/images/rfm/title.png" style="width:70%;height:auto;" /><br>
 <div class="content">
+    <div class="card-deck">
 <form id="sampleForm">
     【入力欄】
     <br />
@@ -126,14 +127,17 @@ function buildData() {
 
     <input type="button" value="出力" onclick="buildData();">
 </form>
+         </div>
  </div>
 
 <div class="content">
+     <div class="card-deck">
 <form>
 <div id="sampleOutput">
 <textarea cols="40" rows="30" id="sampleInputedList" readonly></textarea>
 <button onclick="copyToClipboard()">コピーする</button>
 </div>
 </form>
+         </div>
 </div>
 
