@@ -92,64 +92,52 @@ function buildData() {
 </script>
 
 <body>
-<div id="wrapper">
-    
-<img src="https://project-rfm.net/public/images/rfm/title.png" style="width:70%;height:auto;" /><br>
-
-<div class="content">
-            <div class="card-deck">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>基本設定</h3>
-                    </div>
-                    <div class="card-body">
-<form id="sampleForm">
-    【入力欄】
-    <br />
-    MapName：<input type="text" name="formName" id="mapName" value="TestMap">
-    <br />
-    version：<input type="text" name="formVersion" id="mapVersion" value="1.0.0">
-    <br />
-    Author：<input type="text" name="formAuthor" id="mapAuthor" value="p_rfm">
-    <br/>
-    ゲーム時間: <input type="number" min="10" id="mapGameTime" value="25">
-    <br />
-    羽: <input type="number" min="0" id="mapStartFeather" value="10">
-    骨: <input type="number" min="0" id="mapStartBone" value="10">
-    卵: <input type="number" min="0" id="mapStartEgg" value="10">
-    <br />
-    自動終了：
-        <select name="formArea" id="mapAutoEnd">
-            <option selected>false</option>
-            <option>true</option>
-        </select>
-    <br />
-    自動復活：
-        <select name="formAge" id="mapAutoRejail">
-            <option selected>false</option>
-            <option>true</option>
-        </select>
-    <br />
-    コメント：<textarea name="formComent">コメント</textarea>
-    <br />
-    
-
-    <input type="button" value="出力" onclick="buildData();">
-</form>
-                         </div>
-                     </div>
-         </div>
- </div>
-
-<div class="content">
-     <div class="card-deck">
-<form>
-<div id="sampleOutput">
-<textarea cols="40" rows="30" id="sampleInputedList" readonly></textarea>
-<button onclick="copyToClipboard()">コピーする</button>
-</div>
-</form>
-         </div>
-</div>
-</div>
+  <div id="wrapper">
+    <div class="container"> <img src="https://project-rfm.net/public/images/rfm/title.png" style="width:70%;height:auto;" /><br>
+      <div class="content">
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-header">
+              <h3>設定</h3>
+            </div>
+            <div class="card-body">
+              <form id="sampleForm">
+                  <div class="form-group">
+                   　　MapName：<input type="text" name="formName" id="mapName" value="TestMap"> <br/> 
+                   </div>
+                  <div class="form-group">
+                      version：<input type="text" name="formVersion" id="mapVersion" value="1.0.0"> <br/> 
+                  </div>
+                   <div class="form-group">
+                      Author：<input type="text" name="formAuthor" id="mapAuthor" value="p_rfm"> <br/> 
+                   </div>
+                  <div class="form-group">
+                      ゲーム時間: <input type="number" min="10" id="mapGameTime" value="25"> <br/> 
+                   </div>
+                      羽: <input type="number" min="0" id="mapStartFeather" value="10"> 
+                      骨: <input type="number" min="0" id="mapStartBone" value="10"> 
+                      卵: <input type="number" min="0" id="mapStartEgg" value="10"> <br/> 
+                      自動終了： <select name="formArea" id="mapAutoEnd">
+            　　　　　　　　　　　　　<option selected>false</option>
+            　　　　　　　　　　　　　<option>true</option>
+       　　　　　　　　　　　　　　 </select> <br/> 
+                      自動復活： <select name="formAge" id="mapAutoRejail">
+            　　　　　　　　　　　　　<option selected>false</option>
+            　　　　　　　　　　　　　<option>true</option>
+        　　　　　　　　　　　　　</select> <br/> 
+                      コメント：<textarea name="formComent">コメント</textarea> <br/> 
+                <input type="button" value="出力" onclick="buildData();"> </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="card-deck">
+          <form>
+            <div id="sampleOutput"> <textarea cols="40" rows="30" id="sampleInputedList" readonly></textarea> <button onclick="copyToClipboard()">コピーする</button> </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
