@@ -60,6 +60,10 @@ function buildData() {
    var author = document.getElementById('mapAuthor').value;
    var gametime = document.getElementById('mapGameTime').value;
     
+   var startfeather = document.getElementById('mapStartFeather').value;
+   var startbone = document.getElementById('mapStartBone').value;
+   var startegg = document.getElementById('mapStartEgg').value;
+    
    var autoend = document.getElementById('mapAutoEnd').value;
    var autorejail = document.getElementById('mapAutoRejail').value;
     
@@ -71,6 +75,11 @@ function buildData() {
     xml += '    <author>' + author + '</author>\n';
     xml += '  </authors>\n';
     xml += '  <time>' + gametime + '</time>\n';
+    xml += '  <start>\n';
+    xml += '    <feather>' + startfeather + '</feather>\n';
+    xml += '    <bone>' + startbone + '</bone>\n';
+    xml += '    <egg>' + startegg + '</egg>\n';
+    xml += '  </start>\n';
     xml += '  <auto_end>' + autoend + '</auto_end>\n';
     xml += '  <auto_rejail>' + autorejail + '</auto_rejail>\n';
     xml += '</map>\n';
@@ -80,7 +89,7 @@ function buildData() {
     
 </script>
 
-<img src="https://project-rfm.net/public/images/rfm/title.png" style="width:100%;height:auto;" /><br>
+<img src="https://project-rfm.net/public/images/rfm/title.png" style="width:70%;height:auto;" /><br>
 <form id="sampleForm">
     【入力欄】
     <br />
@@ -91,6 +100,10 @@ function buildData() {
     Author：<input type="text" name="formAuthor" id="mapAuthor" value="p_rfm">
     <br/>
     ゲーム時間: <input type="number" min="10" id="mapGameTime" value="25">
+    <br />
+    羽: <input type="number" min="0" id="mapStartFeather" value="10">
+    骨: <input type="number" min="0" id="mapStartBone" value="10">
+    卵: <input type="number" min="0" id="mapStartEgg" value="10">
     <br />
     自動終了：
         <select name="formArea" id="mapAutoEnd">
