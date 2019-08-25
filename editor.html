@@ -61,6 +61,7 @@ function buildData() {
    var version = document.getElementById('mapVersion').value;
    var author = document.getElementById('mapAuthor').value;
    var subtitle = document.getElementById('mapSubtitle').value;
+   var desc = document.getElementById('mapDesc').value;
     
    var gametime = document.getElementById('mapGameTime').value;
     
@@ -87,6 +88,7 @@ function buildData() {
     xml += '    <author>' + author + '</author>\n';
     xml += '  </authors>\n';
     xml += '  <subtitle>' + subtitle + '</subtitle>\n';
+    xml += '  <desc>' + desc + '</desc>\n';
     xml += '  <time>' + gametime + '</time>\n';
     xml += '  <start>\n';
     xml += '    <feather>' + startfeather + '</feather>\n';
@@ -137,6 +139,10 @@ function buildData() {
                   
                    <div class="form-group">
                        サブタイトル<input type="text" class="form-control" id="mapSubtitle" value="テストマップから逃げ切れ!!!"> 
+                   </div>
+                  
+                  <div class="form-group">
+                       マップ説明<textarea class="form-control" id="mapDesc">これはテストのマップです。,広いです。,狭いかも</textarea>
                    </div>
                   
                 </form>
@@ -194,8 +200,7 @@ function buildData() {
         　　　　　　　　 </select>
                     <small class="form-text text-muted">オープニングゲーム終了時に強制的にTPを行うかの設定</small>
                  </div>
-                
-                      コメント：<textarea name="formComent">コメント</textarea> <br/> 
+
                 </form>
             </div>
           </div>
