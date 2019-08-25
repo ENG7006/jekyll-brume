@@ -47,6 +47,7 @@ function buildData() {
    var locrejail2 = document.getElementById('mapLocRejail2').value;
    var locopg = document.getElementById('mapLocOpg').value;
    var locdoor = document.getElementById('mapLocDoor').value;
+   var locshop = document.getElementById('mapLocShop').value;
     
    var xml = "";
     xml += '<map>\n';
@@ -84,6 +85,7 @@ function buildData() {
     xml += '      <rejail2>' + locplayer + '</rejail2>\n';
     xml += '      <door>' + locplayer + '</door>\n';
     xml += '      <opg>' + locplayer + '</opg>\n';
+    xml += '      <shop>' + locshop + '</shop>\n';
     xml += '   </location>\n';
     xml += '</map>\n';
     
@@ -268,6 +270,11 @@ function buildData() {
             <div class="form-group">
                Door<input type="text" class="form-control" id="mapLocDoor" value="0,0,0,0,0"> 
                <small class="form-text text-muted">ゲーム開始時に爆発する扉の起点となる場所</small>
+            </div>
+              
+            <div class="form-group">
+               Shop<input type="text" class="form-control" id="mapLocShop" value="0,0,0,0,0"> 
+               <small class="form-text text-muted">ショップNPCが自動でスポーンする場所</small>
             </div>
                 
           </form>
