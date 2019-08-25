@@ -5,7 +5,7 @@
 
 function dl() {
    
-        var content = document.getElementById("sampleInputedList");
+        var content = document.getElementById("sampleInputedList").value;
         var blob = new Blob([ content ], { "type" : "text/plain" });
     
         if (window.navigator.msSaveBlob) { 
