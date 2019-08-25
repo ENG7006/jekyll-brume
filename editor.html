@@ -70,7 +70,7 @@ function getValue() {
     Author：<input type="text" name="formAuthor" value="p_rfm">
     <br />
 </form>
-<div id="sampleOutput">
+<textarea id="sampleOutput">
 &lt;map&gt;
     <br />
     &lt;name&gt;：<span id="sampleOutputName"></span>&lt;/name&gt;
@@ -90,19 +90,6 @@ function getValue() {
     コメント：<span id="sampleOutputComent"></span>
     <br />
 &lt;/map&gt;
-</div>
+</textarea>
 
-<button id="button3">コピーを実行</button>
-<script>
-  $(function(){
-    $("#button3").on('click',function(){
-      window.getSelection().removeAllRanges();
-      var $copyP = $('#sampleOutput');
-      var copyPNode = $copyP[0].childNodes[0];
-      var range = document.createRange();
-      range.selectNode(copyPNode);
-      window.getSelection().addRange(range);
-      document.execCommand('copy');
-    });
-  });
-</script>
+
