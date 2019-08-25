@@ -36,7 +36,7 @@ window.onload = function () {
 function getValue() {
     var $formObject = document.getElementById( "sampleForm" );
     document.getElementById( "mapname" ).innerHTML = $formObject.formName.value;
-    document.getElementById( "version" ).innerHTML = $formObject.formName.value;
+    document.getElementById( "version" ).innerHTML = $formObject.formVersion.value;
     document.getElementById( "sampleOutputArea" ).innerHTML = $formObject.formArea.value;
     document.getElementById( "sampleOutputAge" ).innerHTML = $formObject.formAge.value;
     document.getElementById( "sampleOutputComent" ).innerHTML = $formObject.formComent.value;
@@ -47,6 +47,8 @@ function getValue() {
     【入力欄】
     <br />
     名前：<input type="text" name="formName" value="太郎">
+    <br />
+    version：<input type="text" name="formVersion" value="1.0.0">
     <br />
     地域：
         <select name="formArea">
