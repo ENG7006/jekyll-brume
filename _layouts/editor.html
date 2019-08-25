@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="container azul">
+      <header class="top row gutters{% if page.path == 'index.html' || '' %} fadeInLeft animated{% endif %}">
+        <div class="col span_2 center">
+          <!-- TODO: add baseurl to the logo link -->
+          <a href="{{site.baseurl}}" id="logo" title="njjjjj"
+             style="background-image: url({{site.baseurl}}/public/images/logo.png);"></a>
+        </div>
+        {% include navigation.html %}
+      </header>
+
+      {{ content }}
+
+      <footer>
+        <p>
+          &copy; 2015-2019 njj12. All rights reserved. | <a href="{{site.baseurl}}/rfm/rule">利用規約</a><br><br>
+       <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{site.baseurl}}">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <br>    
+      </footer>
+    </div>
+
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/public/js/jquery.fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("article").fitVids();
+      });
+    </script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    
+  function copyToClipboard() {
+        // コピー対象をJavaScript上で変数として定義する
+        var copyTarget = document.getElementById("sampleInputedList");
+        // コピー対象のテキストを選択する
+        copyTarget.select();
+        // 選択しているテキストをクリップボードにコピーする
+        document.execCommand("Copy");
+        // コピーをお知らせする
+        alert("クリップボードに保存しました");
+ }
+    
+function buildData() {
+   var name = document.getElementById('mapName').value;
+   var version = document.getElementById('mapVersion').value;
+   var author = document.getElementById('mapAuthor').value;
+   var subtitle = document.getElementById('mapSubtitle').value;
+   var desc = document.getElementById('mapDesc').value;
+    
+   var gametime = document.getElementById('mapGameTime').value;
+    
+   var startfeather = document.getElementById('mapStartFeather').value;
+   var startbone = document.getElementById('mapStartBone').value;
+   var startegg = document.getElementById('mapStartEgg').value;
+    
+   var rejailfeather = document.getElementById('mapRejailFeather').value;
+   var rejailbone = document.getElementById('mapRejailBone').value;
+   var rejailegg = document.getElementById('mapRejailEgg').value;
+  
+   var rejaillimit = document.getElementById('mapRejailLimit').value;
+   var autoend = document.getElementById('mapAutoEnd').value;
+   var autorejail = document.getElementById('mapAutoRejail').value;
+   var watch = document.getElementById('mapWatch').value;
+   var field = document.getElementById('mapField').value;
+   var spblock = document.getElementById('mapSpblock').value;
+   var opgtp = document.getElementById('mapOPGTP').value;
+    
+   var locplayer = document.getElementById('mapLocPlayer').value;
+   var lochunter = document.getElementById('mapLocHunter').value;
+   var locclear = document.getElementById('mapLocClear').value;
+   var locjail = document.getElementById('mapLocJail').value;
+   var locrejail1 = document.getElementById('mapLocRejail1').value;
+   var locrejail2 = document.getElementById('mapLocRejail2').value;
+   var locopg = document.getElementById('mapLocOpg').value;
+   var locdoor = document.getElementById('mapLocDoor').value;
+   var locshop = document.getElementById('mapLocShop').value;
+    
+   var xml = "";
+    xml += '<map>\n';
+    xml += '   <name>' + name + '</name>\n';
+    xml += '   <version>' + version + '</version>\n';
+    xml += '   <authors>\n';
+    xml += '      <author>' + author + '</author>\n';
+    xml += '   </authors>\n';
+    xml += '   <subtitle>' + subtitle + '</subtitle>\n';
+    xml += '   <desc>' + desc + '</desc>\n';
+    xml += '   <time>' + gametime + '</time>\n';
+    xml += '   <start>\n';
+    xml += '      <feather>' + startfeather + '</feather>\n';
+    xml += '      <bone>' + startbone + '</bone>\n';
+    xml += '      <egg>' + startegg + '</egg>\n';
+    xml += '   </start>\n';
+    xml += '   <rejail>\n';
+    xml += '      <feather>' + rejailfeather + '</feather>\n';
+    xml += '      <bone>' + rejailbone + '</bone>\n';
+    xml += '      <egg>' + rejailegg + '</egg>\n';
+    xml += '   </rejail>\n';
+    xml += '   <rejailcount>' + rejaillimit + '</rejailcount>\n';
+    xml += '   <auto_end>' + autoend + '</auto_end>\n';
+    xml += '   <auto_rejail>' + autorejail + '</auto_rejail>\n';
+    xml += '   <watch>' + watch + '</watch>\n';
+    xml += '   <climate>' + field + '</climate>\n';
+    xml += '   <spblock>' + spblock + '</spblock>\n';
+    xml += '   <opg_tp>' + opgtp + '</opg_tp>\n';
+    xml += '   <location>\n';
+    xml += '      <player>' + locplayer + '</player>\n';
+    xml += '      <hunter>' + locplayer + '</hunter>\n';
+    xml += '      <clear>' + locplayer + '</clear>\n';
+    xml += '      <jail>' + locplayer + '</jail>\n';
+    xml += '      <rejail1>' + locplayer + '</rejail1>\n';
+    xml += '      <rejail2>' + locplayer + '</rejail2>\n';
+    xml += '      <door>' + locplayer + '</door>\n';
+    xml += '      <opg>' + locplayer + '</opg>\n';
+    xml += '      <shop>' + locshop + '</shop>\n';
+    xml += '   </location>\n';
+    xml += '</map>\n';
+    
+    document.getElementById('sampleInputedList').value = xml;
+}
+    
+</script>
+  </body>
+</html>
