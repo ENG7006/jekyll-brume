@@ -74,6 +74,7 @@ function buildData() {
    var autoend = document.getElementById('mapAutoEnd').value;
    var autorejail = document.getElementById('mapAutoRejail').value;
    var watch = document.getElementById('mapWatch').value;
+   var field = document.getElementById('mapField').value;
     
     var xml = "";
     xml += '<map>\n';
@@ -97,6 +98,7 @@ function buildData() {
     xml += '  <auto_end>' + autoend + '</auto_end>\n';
     xml += '  <auto_rejail>' + autorejail + '</auto_rejail>\n';
     xml += '  <watch>' + watch + '</watch>\n';
+    xml += '  <climate>' + field + '</climate>\n';
     xml += '</map>\n';
     
     document.getElementById('sampleInputedList').value = xml;
