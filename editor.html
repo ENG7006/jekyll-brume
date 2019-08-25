@@ -49,6 +49,8 @@ function buildData() {
    var author = document.getElementById('mapAuthor').value;
    var gametime = document.getElementById('mapGameTime').value;
     
+   var autoend = document.getElementById('mapAutoEnd').value;
+    
     var xml = "";
     xml += '<map>\n';
     xml += '  <name>' + name + '</name>\n';
@@ -57,6 +59,7 @@ function buildData() {
     xml += '    <author>' + author + '</author>\n';
     xml += '  </authors>\n';
     xml += '  <time>' + gametime + '</time>\n';
+    xml += '  <autoend>' + autoend + '</autoend>\n';
     xml += '</map>\n';
     
     document.getElementById('sampleInputedList').value = xml;
@@ -75,11 +78,10 @@ function buildData() {
     <br/>
     ゲーム時間: <input type="number" min="10" id="mapGameTime" value="25">
     <br />
-    地域：
-        <select name="formArea">
-            <option selected>関東</option>
-            <option>東海</option>
-            <option>関西</option>
+    自動終了：
+        <select name="formArea" id="mapAutoEnd">
+            <option selected>false</option>
+            <option>true</option>
         </select>
     <br />
     年齢：
