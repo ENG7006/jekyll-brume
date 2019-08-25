@@ -114,9 +114,6 @@ function buildData() {
                   <div class="form-group">
                       ゲーム時間: <input type="number" min="10" id="mapGameTime" value="25"> <br/> 
                    </div>
-                      羽: <input type="number" min="0" id="mapStartFeather" value="10"> 
-                      骨: <input type="number" min="0" id="mapStartBone" value="10"> 
-                      卵: <input type="number" min="0" id="mapStartEgg" value="10"> <br/> 
                       自動終了： <select name="formArea" id="mapAutoEnd">
             　　　　　　　　　　　　　<option selected>false</option>
             　　　　　　　　　　　　　<option>true</option>
@@ -126,11 +123,30 @@ function buildData() {
             　　　　　　　　　　　　　<option>true</option>
         　　　　　　　　　　　　　</select> <br/> 
                       コメント：<textarea name="formComent">コメント</textarea> <br/> 
-                <input type="button" value="出力" onclick="buildData();"> </form>
+                <input type="button" value="出力" onclick="buildData();"> 
+                </form>
             </div>
           </div>
+            
+        <div class="card">
+            <div class="card-header">
+              <h3>アイテム設定</h3>
+            </div>
+            <div class="card-body">
+              <form id="sampleForm">
+                  <div class="form-group">
+                      羽: <input type="number" min="0" id="mapStartFeather" value="10"> 
+                      骨: <input type="number" min="0" id="mapStartBone" value="10"> 
+                      卵: <input type="number" min="0" id="mapStartEgg" value="10"> <br/> 
+                      </div>
+                <input type="button" value="出力" onclick="buildData();"> 
+                </form>
+            </div>
+          </div>
+            
         </div>
       </div>
+        
       <div class="content">
         <div class="card-deck">
           <form>
