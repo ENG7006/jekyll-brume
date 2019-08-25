@@ -45,21 +45,26 @@
 //     document.getElementById( "sampleOutputAuthor" ).innerHTML = $formObject.formAuthor.value;
 // }
     
-function dl(){ 
- if(window.File){
-  var b = new Blob(
-    [ document.getElementById('id_textarea').value ],
-    { "type" : "text/plain" }
-  );
-  var c = window.URL
-    ? function(b){ return window.URL.createObjectURL(b); }
-    : window.webkitURL
-      ? function(b){ return window.webkitURL.createObjectURL(b); }
-      : undefined;
-  if ( c ) {
-    document.getElementById("id_download").innerHTML = '<a href="' + c(b) + '" target="_blank">ダウンロード</a>';
-  }
-}}
+function dl() {
+    
+        var content = document.getElementById("output").value;
+        var blob = new Blob([ content ], { "type" : "text/plain" });
+
+ 
+
+        if (window.navigator.msSaveBlob) { 
+
+            window.navigator.msSaveBlob(blob, "map.xml"); 
+
+            window.navigator.msSaveOrOpenBlob(blob, "map.xml"); 
+
+        } else {
+
+            document.getElementById("download").href = window.URL.createObjectURL(blob);
+
+        }
+
+    }
     
   function copyToClipboard() {
         // コピー対象をJavaScript上で変数として定義する
@@ -264,8 +269,7 @@ function buildData() {
             <div id="sampleOutput"> 
                <textarea  class="form-control" rows="20" id="sampleInputedList" readonly></textarea> 
                 <button type="button" class="btn btn-success" onclick="copyToClipboard()">コピーする</button> 
-                <button type="button" class="btn btn-warning" onclick="dl()">ダウンロード</button> 
-                <div id="id_download"></div>
+                <button id="download" download="map.xml" type="button" class="btn btn-warning" onclick="dl()">ダウンロード</button> 
              </div>
           </form>
         </div>
