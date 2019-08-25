@@ -37,6 +37,7 @@ function getValue() {
     var $formObject = document.getElementById( "sampleForm" );
     document.getElementById( "sampleOutputmapname" ).innerHTML = $formObject.formName.value;
     document.getElementById( "sampleOutputversion" ).innerHTML = $formObject.formVersion.value;
+    document.getElementById( "sampleOutputAuthor" ).innerHTML = $formObject.formAuthor.value;
     document.getElementById( "sampleOutputArea" ).innerHTML = $formObject.formArea.value;
     document.getElementById( "sampleOutputAge" ).innerHTML = $formObject.formAge.value;
     document.getElementById( "sampleOutputComent" ).innerHTML = $formObject.formComent.value;
@@ -46,9 +47,11 @@ function getValue() {
 <form id="sampleForm">
     【入力欄】
     <br />
-    名前：<input type="text" name="formName" value="太郎">
+    名前：<input type="text" name="formName" value="TestMap">
     <br />
     version：<input type="text" name="formVersion" value="1.0.0">
+    <br />
+    Author：<input type="text" name="formAuthor" value="p_rfm">
     <br />
     地域：
         <select name="formArea">
@@ -75,6 +78,12 @@ function getValue() {
   &lt;name&gt;<span id="sampleOutputmapname"></span>&lt;/name&gt;
     <br/>
   &lt;version&gt;<span id="sampleOutputversion"></span>&lt;/version&gt;
+     <br/>
+  &lt;authors&gt;
+    <br/>
+    &lt;author&gt;<span id="sampleOutputversion"></span>&lt;/author&gt;
+    <br/>
+  &lt;/authors&gt;
     <br/>
     年齢：<span id="sampleOutputAge"></span>
     <br/>
