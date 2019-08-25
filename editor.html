@@ -44,11 +44,13 @@ function getValue() {
 }
     
 function buildData() {
-   var test = document.getElementById('sampleUserInput').value;
+   var name = document.getElementById('mapName').value;
+   var version = document.getElementById('mapVersion').value;
     
     var xml = "";
     xml += '<map>\n';
-    xml += '<name>' + test + '</name>\n';
+    xml += '   <name>' + name + '</name>\n';
+    xml += '   <version>' + version + '</version>\n';
     xml += '</map>\n';
     
     document.getElementById('sampleInputedList').value = xml;
@@ -59,7 +61,9 @@ function buildData() {
 <form id="sampleForm">
     【入力欄】
     <br />
-    名前：<input type="text" name="formName" id="sampleUserInput" value="太郎">
+    MapName：<input type="text" name="formName" id="mapName" value="太郎">
+    <br />
+    version：<input type="text" name="formVersion" id="mapVersion"  value="1.0.0">
     <br />
     地域：
         <select name="formArea">
@@ -77,8 +81,7 @@ function buildData() {
     <br />
     コメント：<textarea name="formComent">コメント</textarea>
     <br />
-    version：<input type="text" name="formVersion" value="1.0.0">
-    <br />
+    
     Author：<input type="text" name="formAuthor" value="p_rfm">
     <br />
     <input type="button" value="上記の入力内容を、以下の末尾に追加" onclick="buildData();">
